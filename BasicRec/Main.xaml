@@ -1,0 +1,132 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" mva:VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="629,853" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <scg:List x:TypeArguments="x:String" Capacity="31">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>System.Activities.DynamicUpdate</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities.Models</x:String>
+    </scg:List>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <scg:List x:TypeArguments="AssemblyReference" Capacity="32">
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Mail.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.ServiceModel</AssemblyReference>
+      <AssemblyReference>Microsoft.Bcl.AsyncInterfaces</AssemblyReference>
+      <AssemblyReference>System.ValueTuple</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Composition</AssemblyReference>
+      <AssemblyReference>UiPath.Excel</AssemblyReference>
+      <AssemblyReference>System.Runtime.WindowsRuntime</AssemblyReference>
+    </scg:List>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence sap:VirtualizedContainerService.HintSize="476,788" sap2010:WorkflowViewState.IdRef="Sequence_4">
+    <Sequence.Variables>
+      <Variable x:TypeArguments="x:String" Name="result" />
+    </Sequence.Variables>
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Browser Chrome: calculator - Google Search" sap:VirtualizedContainerService.HintSize="434,1498" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" InteractionMode="DebuggerApi" ScopeGuid="77905608-a50b-47f3-a7be-87235da70657" Version="V1">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="376,1282" sap2010:WorkflowViewState.IdRef="Sequence_3">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="334,84" sap2010:WorkflowViewState.IdRef="MessageBox_2" Text="[&quot;Calculator Application Launched&quot;]" />
+            <uix:NClick ClickType="Single" DisplayName="Click '1'" sap:VirtualizedContainerService.HintSize="334,156" sap2010:WorkflowViewState.IdRef="NClick_3" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="77905608-a50b-47f3-a7be-87235da70657" Version="V1">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="https://www.google.com/search?q=calculator&amp;oq=cal&amp;aqs=chrome.0.69i59j46i67j35i39j0i433i512j0i20i263i433i512j69i60l3.1215j0j7&amp;sourceid=chrome&amp;ie=UTF-8" DesignTimeRectangle="425, 470, 77, 33" ElementType="Text" FriendlyName="'1'" FullSelectorArgument="&lt;webctrl aaname='1' aria-role='button' parentid='rso' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='1' aria-role='button' parentid='rso' tag='DIV' type='' check:text='1' /&gt;" Guid="fc562bc3-ecb5-42ff-81ee-1e43ad8432f0" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAFEAAAAlCAYAAAA6PAXhAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADpSURBVGhD7do9CsJAEIZhj6KQSgRbwUBEbxfPYRE8hNgLQnobKxFyhtERDAn5wSQfiPIWLyzMbvOw5YzGk8BoWCAKKiFOZ3NbhJGFqw015D7uVHTLEX2wjNa1D6mcOxUhc0R+YLfcq4JYd5HaA1EQiIJAFASiIBAFgSjodxC3R7vcU9vVzb7cbyC+ADO7gdiv+HB94mV2Oqcg9i1O9hb7OQFxeCAKAlEQiIJAFASiIBD/OxAFgSgIREEgCgJREIiCQBQEoqAKImsk3apdI2Gh6fMaF5rekPzI9tynCOiVEKlfIAoCcXCBPQCuCs9FS6kmZgAAAABJRU5ErkJggg==" InformativeScreenshot="19edffa8b2c051ae5c8ee724d6eb8d0a.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='calculator - Google Search' /&gt;" SearchSteps="FuzzySelector, Image" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NClick ClickType="Single" DisplayName="Click '×'" sap:VirtualizedContainerService.HintSize="334,156" sap2010:WorkflowViewState.IdRef="NClick_5" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="77905608-a50b-47f3-a7be-87235da70657" Version="V1">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="https://www.google.com/search?q=calculator&amp;oq=cal&amp;aqs=chrome.0.69i59j46i67j35i39j0i433i512j0i20i263i433i512j69i60l3.1215j0j7&amp;sourceid=chrome&amp;ie=UTF-8" DesignTimeRectangle="677, 430, 77, 33" ElementType="Text" FriendlyName="'×'" FullSelectorArgument="&lt;webctrl aaname='×' aria-role='button' parentid='rso' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='×' aria-role='button' parentid='rso' tag='DIV' type='' check:text='×' /&gt;" Guid="a39f4a85-e58d-4840-ab72-46eb69c65035" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAFEAAAAlCAYAAAA6PAXhAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAESSURBVGhD7dpNCoJAGMbxjlLgGaJF9wgiMIigS0Ubb9AiPEAQuBOCdoIQhOAZ3nr7MJUxLB9wjGfxQ5wZN38GZzO9/sARaoYRAQoRh6OxTKauuIsVGWgbbZRvprKIOjmbL40f05s2KofMInIH1qetjBFNi6kaIwIwIgAjAjAiACMCMCIAIwIwIgAjAlge0ZcwDmRdHktSCXf5sXZZHtGTfZzKJTnJ9v5uX0BleUT1CnmW6PaMDp5hTbs6EFE9QtoYUHUgIndiQ8+A2eHCf+L3NoFER780ztP5LzEiACMCMCIAIwIwIgAjAjAiACMCMCKAMSLv4tRXeReHt8Lq+XgrTOkkd2Q1bVMOqAoR6TeM2JgjV90n7mR2k/R8AAAAAElFTkSuQmCC" InformativeScreenshot="a8854a7ccf2fe9732767b2a90b8b4cf0.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='calculator - Google Search' /&gt;" SearchSteps="FuzzySelector, Image" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NClick ClickType="Single" DisplayName="Click '5'" sap:VirtualizedContainerService.HintSize="334,156" sap2010:WorkflowViewState.IdRef="NClick_4" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="77905608-a50b-47f3-a7be-87235da70657" Version="V1">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="https://www.google.com/search?q=calculator&amp;oq=cal&amp;aqs=chrome.0.69i59j46i67j35i39j0i433i512j0i20i263i433i512j69i60l3.1215j0j7&amp;sourceid=chrome&amp;ie=UTF-8" DesignTimeRectangle="509, 430, 77, 33" ElementType="Text" FriendlyName="'5'" FullSelectorArgument="&lt;webctrl aaname='5' aria-role='button' parentid='rso' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='5' aria-role='button' parentid='rso' tag='DIV' type='' check:text='5' /&gt;" Guid="e0fb8033-449e-4187-9567-c8e2a41115aa" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAFEAAAAlCAYAAAA6PAXhAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAEjSURBVGhD7doxCsIwGIZhj6LgJIKrYEHR27VLL9FBPEIHcReE7qXQSQo9w69RLIlNxeoPfsI3vENIuzykTYYMhqOxsO8iokIO4mQ6k3mwlGC1YR0ZH+NkuzWIZmKxXHtfZG7GyYZsELkC+2W8Woi+B9nriKgQERUiokJEVIiIChFRIXjEcF/KuaqtMkk8z/0yeMTkVEu+j71zKIEjxpIWtRy3vjmcwBF3cqxKSSPfHE7YiNFBcud/iLkqsRG32RXOWonPY5CwEVvd/5FoG81fIqJ90tCItzNicZDQHvOc2D/3sI25U8Mj/kNEVIiIChFRISIqRESFiKgQERUiokJEVKiFyLs4/fLexeGtsPfrvBX2gOSKfJ3xsQFNDiL7LCJ+3Vgu/R78fwQlpF4AAAAASUVORK5CYII=" InformativeScreenshot="ecddff6a8393b4fed7b9e6ae7380f83c.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='calculator - Google Search' /&gt;" SearchSteps="FuzzySelector, Image" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NClick ClickType="Single" DisplayName="Click '='" sap:VirtualizedContainerService.HintSize="334,156" sap2010:WorkflowViewState.IdRef="NClick_6" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="77905608-a50b-47f3-a7be-87235da70657" Version="V1">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="https://www.google.com/search?q=calculator&amp;oq=cal&amp;aqs=chrome.0.69i59j46i67j35i39j0i433i512j0i20i263i433i512j69i60l3.1215j0j7&amp;sourceid=chrome&amp;ie=UTF-8" DesignTimeRectangle="593, 465, 77, 33" ElementType="Text" FriendlyName="'='" FullSelectorArgument="&lt;webctrl aaname='=' aria-role='button' parentid='rso' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='=' aria-role='button' parentid='rso' tag='DIV' type='' check:text='=' /&gt;" Guid="8d8b0d4d-2360-4900-b476-31dba7660dbd" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAFEAAAAlCAYAAAA6PAXhAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADbSURBVGhD7dqxDcIwEEZhRgEps1DTMAdSakpo2IIB6LIEOzBDarpD1wQnnJHl/EKReMVXOZZOT053q/WmMcxDRIFRxO3+YMfrwy7dEwFv443SZm6I6IfnWx9exps3moYcIvICy3mrMGL0MfKIKEBEASIKEFGAiAJEFCCiABEFiCiw4Ih32yXDfTpZG977vXQuIlZK5+J3rrTgiLxEASL+FSIKEFGAiAJEFCCiABEFiChARAEiChBRIIzIGkm57BoJC01lvi40OT/kReZ5m2lAN4qIOkQUIOJsjb0AR7M/RLhVewAAAAAASUVORK5CYII=" InformativeScreenshot="191b043eb2aad3bec9ecb3d80f63f5e3.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='calculator - Google Search' /&gt;" SearchSteps="FuzzySelector, Image" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NGetText DisplayName="Get Text 'Ans ='" sap:VirtualizedContainerService.HintSize="334,156" sap2010:WorkflowViewState.IdRef="NGetText_1" ScopeIdentifier="77905608-a50b-47f3-a7be-87235da70657" Version="V1">
+              <uix:NGetText.Target>
+                <uix:TargetAnchorable BrowserURL="https://www.google.com/search?q=calculator&amp;oq=cal&amp;aqs=chrome.0.69i59j46i67j35i39j0i433i512j0i20i263i433i512j69i60l3.1215j0j7&amp;sourceid=chrome&amp;ie=UTF-8" DesignTimeRectangle="174, 275, 578, 65" FriendlyName="'Ans ='" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div' idx='2' parentid='rso' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl type='' aaname='          ' parentid='rso' tag='DIV' /&gt;" Guid="e47916be-58b9-406f-a6d8-ecd8aeebab51" InformativeScreenshot="fb9416e232fc512ef70426c59ebe01be.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='calculator - Google Search' /&gt;" SearchSteps="FuzzySelector" />
+              </uix:NGetText.Target>
+              <uix:NGetText.Text>
+                <OutArgument x:TypeArguments="x:String">[result]</OutArgument>
+              </uix:NGetText.Text>
+            </uix:NGetText>
+            <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="334,84" sap2010:WorkflowViewState.IdRef="MessageBox_3" Text="[&quot;Result is &quot;+result]" />
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="-8, -8, 1382, 744" BrowserType="Chrome" IconBase64="iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAARHSURBVFhHvZddbBRVFMf7YrAq+OSbD6Kgb0qUUh60xq9VtA8k1EJrH1CsGIM+GLUmBA0kFi0WSMCHLcVCTMO2GmjFCiUFpH60sUjMEtIGLaAWama32w92dt2vOf7PndPd3M7sdmobf8k/M/fec8//zJ07s7NFXrEsawlUnclkmqEBaAxKisLS14yYKo6VafMHyR5A4hYoTh5BbAw6iLnLJc3cQZ7bkKQRSttp5w7mpqBdKKRY0noDE+7HxEuSZ94gVxA5l0n6wiDwYUwIyVyN9I0RMls/p4l33qDwi8+R4VtNxjOlFF7no/G3XyfzcBOlR/6UaB3kNHBYITbuyJU7zNOj12ly+/tkPL2KjKdKCgsxkx++p+bMhIvIuxIYuB0BjmWPn+qi0Atl7mYFFCp/nP45e0qy5IAH3w7nnsBAo8RkMY8cck3uVVMN2yWTDrwaxNYGFfGjpu12vnK3pKxIbRVFD+yj+DdHKd51DOf7KfJatRYztbueyLIkmw68UtqtQEeLjCl4s4Wef0xLyBqrWUuJ8/0S5SQx0EfhDeV0c/+n0pMfeDYrc5zfiYb2konufdNhPr7lZbKmpiQiP5YZlbPCwNPEKizm5a+WPoUVG6ZU9yKarLsna86PXGYiIhELB7zX8/I3S1uRuVpPqZ5blMx9d1FozUqKnzwuowsLvP1cwIC0FelffNkCWImjS4lSKRldWODdzwWMSVuR6r1bKyB9sUpG3Hnyo6hnnb2kXwi8DS4gKW1F6vQirYDM79tkxB03o3xq/VGz4gIS/2sBLecSMstmuoCwtBWOWxDcICPuuBnlU3u/YwXULdA34YVntQJGeh+kZGbum/CKkXEUcG7QsQfUJpzxGH6cNT/etZQeDayljuEeGfVOoC/pKGB0Qn81w9vPLyJtm1uxqxTrKab6jkdoZWCdkq/jFQrHxyVidm7GLarYa2rmG/0xGc0B70ouYAkq0Ub39O3Imk+rpvtdmkjM/ipO4iet7khcM2e1Oe+/icMd6vcAjYN2t82NqEFlX73kKKL8683Ue/28RDm5PH6NNnUGYDipmfNqxBKO5W9S5gxWYTk6tB1y4lqvo4BpVXz7FjVeaKH2yyfoy99O0mfBVnq1ZyuVBCrUeOmhOnrik7+yBXw/pH/XwisJz/vE3gadu2Q8yxdDnQ5zrypp3Uhlu392PPsMvHaKbQ7082f4RTskR/cfP+B21LiaFFJpWyUdCHZKlhzw+BWHW8VWB8uyDAH89aoxaoZo6097aFWbvcSzafOZD2gwMiyzcyD33zjcK3buIGCFWxEMb87Dg8doy3c7aE1nLa1ur1RX6uvYRLWnt6m9MBS5ItE6bI4LfEhsCiMrEZS58wa5eNkLX/lMUEQxJjZA//ljAHP5j+tOnLrfcy/IavA/Yn5xeIJjoSbM1R+1+YBki6H1SOyH+iEDSoj4nPv8iKlEDfYbblaKiv4FoeF/NqqvoEMAAAAASUVORK5CYII=" InformativeScreenshot="a46934de08a35ed75fbdff4b5af0eae3.png" Selector="&lt;html app='chrome.exe' title='calculator - Google Search'/&gt;" Url="https://www.google.com/search?q=calculator&amp;oq=calcu&amp;aqs=chrome.0.0i131i433i512j69i57j0i433i512l2j0i131i433i512l2j69i60l2.2998j0j7&amp;sourceid=chrome&amp;ie=UTF-8" />
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+  </Sequence>
+</Activity>

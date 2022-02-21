@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-16"?>
+<TargetAnchorable ContentHash="xFiZ864Vd0C1Nz_68flyEg" DesignTimeRectangle="255, 434, 79, 26" ElementType="Button" FriendlyName="'unchecked'" FullSelectorArgument="&lt;wnd ctrlid='1' title='OK' /&gt;" FuzzySelectorArgument="&lt;wnd ctrlid='1' title='OK' check:text='unchecked' /&gt;" Guid="2be9e634-46f4-400d-acdc-78cc8bcef6a9" ScopeSelectorArgument="&lt;wnd app='notepad.exe' cls='#32770' title='Font' /&gt;" SearchSteps="Selector, FuzzySelector, Image" xmlns="http://schemas.uipath.com/workflow/activities/uix">
+  <imageRef attrName="ImageBase64" xmlns="">0NTSh38ImpUSALH2jsaB7AQ</imageRef>
+  <imageRef attrName="InformativeScreenshot" originalValue="85d6472f9114ae2bb6001ec5a5a96392.png" xmlns="">0Zyl_M71F1ku6Zb0UasVBsg</imageRef>
+</TargetAnchorable>

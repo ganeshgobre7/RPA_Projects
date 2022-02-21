@@ -1,0 +1,13 @@
+﻿{
+  "Id": "ny6v6q2sK0a7omqzOZFCLA",
+  "Reference": "TgXLosGn60WFf9lw_ZmKvw/ny6v6q2sK0a7omqzOZFCLA",
+  "ParentRef": "TgXLosGn60WFf9lw_ZmKvw/2LkGUsQWT0eRWwoamWFi9g",
+  "Name": "Chrome: calculator - Google Search",
+  "Type": "Screen",
+  "Created": "2022-02-19T06:06:00.9966672Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=21.10.5.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2022-02-19T06:06:00.9966672Z"
+}

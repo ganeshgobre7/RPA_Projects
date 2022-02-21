@@ -1,0 +1,13 @@
+﻿{
+  "Id": "wthvshYbqk-iU2s35qEiVA",
+  "Reference": "7biuSOpOdkKr8hucbLlv5A/wthvshYbqk-iU2s35qEiVA",
+  "ParentRef": "7biuSOpOdkKr8hucbLlv5A/4D9W3-gET0G0qCrtfBAxlQ",
+  "Name": "Chrome: Facebook – log in or sign up",
+  "Type": "Screen",
+  "Created": "2022-02-18T08:36:52.1792073Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=21.10.5.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2022-02-18T08:36:52.1792073Z"
+}

@@ -1,0 +1,12 @@
+﻿{
+  "Id": "W5iGAFlgVkWFxMzGPgqwVg",
+  "Reference": "TgXLosGn60WFf9lw_ZmKvw/W5iGAFlgVkWFxMzGPgqwVg",
+  "Name": "Chrome: calculator - Google Search",
+  "Type": "App",
+  "Created": "2022-02-19T06:05:58.5495775Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=21.10.5.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2022-02-19T06:05:58.5495775Z"
+}

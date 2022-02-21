@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-16"?>
+<TargetApp Area="0, 0, 0, 0" ContentHash="MTr6XRcwZ0G6_WnHV1K_uA" FilePath="C:\Windows\System32\notepad.exe" Selector="&lt;wnd app='notepad.exe' cls='Notepad' title='Untitled - Notepad'/&gt;" xmlns="http://schemas.uipath.com/workflow/activities/uix">
+  <imageRef attrName="IconBase64" xmlns="">0biV-mSXzZEKSfpwg0lhDLg</imageRef>
+  <imageRef attrName="InformativeScreenshot" originalValue="a44dd9cba343977f89a6782f20ce5260.png" xmlns="">0EO2sdqeEcE2jGYM7pnSRNQ</imageRef>
+</TargetApp>

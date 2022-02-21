@@ -1,0 +1,13 @@
+﻿{
+  "Id": "gMLEBpdiX06rsu_CLVP36w",
+  "Reference": "NeQ-8mVmgEmc0KrkDtTosA/gMLEBpdiX06rsu_CLVP36w",
+  "ParentRef": "NeQ-8mVmgEmc0KrkDtTosA/3oPAB3Zj_EiHZj7d1c6hTw",
+  "Name": "1.0.0",
+  "Type": "AppVersion",
+  "Created": "2022-02-21T06:20:07.1903786Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=21.10.5.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2022-02-21T06:20:07.1903786Z"
+}

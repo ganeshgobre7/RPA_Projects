@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-16"?>
+<TargetAnchorable ContentHash="kU04n4bEl0S_8O9jit_wIg" DesignTimeRectangle="22, 123, 151, 19" FriendlyName="'Cooper'" FullSelectorArgument="&lt;wnd ctrlid='1136' /&gt;&lt;wnd ctrlid='1000' /&gt;&lt;ctrl name='Font:' role='list' /&gt;&lt;ctrl name='Cooper' role='list item' /&gt;" FuzzySelectorArgument="&lt;wnd ctrlid='1136' /&gt;&lt;wnd ctrlid='1000' /&gt;&lt;ctrl name='Font:' role='list' /&gt;&lt;ctrl name='Cooper' role='list item' automationid='' check:text='Cooper' /&gt;" Guid="c6020c98-9982-4270-a05d-4c8058928a1c" ScopeSelectorArgument="&lt;wnd app='notepad.exe' cls='#32770' title='Font' /&gt;" SearchSteps="Selector, FuzzySelector, Image" xmlns="http://schemas.uipath.com/workflow/activities/uix">
+  <imageRef attrName="ImageBase64" xmlns="">0iUbjR-Cf3UqHedTCyvw0Og</imageRef>
+  <imageRef attrName="InformativeScreenshot" originalValue="37f4b2bc1340664f9b07bff1030cbbec.png" xmlns="">0EVmHNXFGiUW4lgk7yuRDOg</imageRef>
+</TargetAnchorable>

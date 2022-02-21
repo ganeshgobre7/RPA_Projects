@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-16"?>
+<TargetApp Area="0, 0, 0, 0" BrowserType="Chrome" ContentHash="xpZV3rjUPUyCDzzD7pR80w" Selector="&lt;html app='chrome.exe' title='calculator - Google Search'/&gt;" Url="https://www.google.com/search?q=calculator&amp;oq=calcu&amp;aqs=chrome.0.0i131i433i512j69i57j0i433i512l2j0i131i433i512l2j69i60l2.2998j0j7&amp;sourceid=chrome&amp;ie=UTF-8" xmlns="http://schemas.uipath.com/workflow/activities/uix">
+  <imageRef attrName="IconBase64" xmlns="">08jEukd01nU-XzUlrczcUsg</imageRef>
+  <imageRef attrName="InformativeScreenshot" originalValue="4e351b8eeaf07817a915d37c1d33ff3e.png" xmlns="">0iT6rgTcISUqkjjMzI7X9Dw</imageRef>
+</TargetApp>

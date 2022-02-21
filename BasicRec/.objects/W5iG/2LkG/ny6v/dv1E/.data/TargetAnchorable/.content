@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-16"?>
+<TargetAnchorable BrowserURL="https://www.google.com/search?q=calculator&amp;oq=calcu&amp;aqs=chrome.0.0i131i433i512j69i57j0i433i512l2j0i131i433i512l2j69i60l2.2998j0j7&amp;sourceid=chrome&amp;ie=UTF-8" ContentHash="M7r0sHOOREeqF__YEWtafg" DesignTimeRectangle="8, 269, 1162, 2549" FriendlyName="'.ULSxyf{margin-bottom:4…'" FullSelectorArgument="&lt;webctrl id='rcnt' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl id='rcnt' tag='DIV' type='' aaname='' check:text='.ULSxyf{margin-bottom:44px}.wDYxhc{clear:both}.cUnQKe .wDYxhc,.related-question-pair .wDYxhc,' /&gt;" Guid="b34e9bf4-a56c-4d6f-a3cc-7991464b8d86" ScopeSelectorArgument="&lt;html app='chrome.exe' title='calculator - Google Search' /&gt;" SearchSteps="FuzzySelector, Image" xmlns="http://schemas.uipath.com/workflow/activities/uix">
+  <imageRef attrName="ImageBase64" xmlns="">03aZ5r9fPpUyJX_Il3OIAzg</imageRef>
+  <imageRef attrName="InformativeScreenshot" originalValue="f755835b3e80313c9675cd48f22e13ca.png" xmlns="">0xaCJqAamyUCLaco4LWKnYg</imageRef>
+</TargetAnchorable>
