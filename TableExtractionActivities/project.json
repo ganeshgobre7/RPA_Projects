@@ -1,9 +1,8 @@
 {
-  "name": "BasicActivities",
-  "description": "This Process Contains Loop,If,Switch,And Leap Year",
+  "name": "TableExtractionActivities",
+  "description": "This Project Contains All the Activity of TableExtraction\r\n",
   "main": "Main.xaml",
   "dependencies": {
-    "UiPath.Database.Activities": "[1.5.0]",
     "UiPath.Excel.Activities": "[2.11.4]",
     "UiPath.Mail.Activities": "[1.12.3]",
     "UiPath.System.Activities": "[21.10.4]",
@@ -47,7 +46,7 @@
   "entryPoints": [
     {
       "filePath": "Main.xaml",
-      "uniqueId": "57326416-7eb8-4581-8722-2ac5d89a0833",
+      "uniqueId": "21551f02-cc46-4045-91a4-5649d2db5b45",
       "input": [],
       "output": []
     }
