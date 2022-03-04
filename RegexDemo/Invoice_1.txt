@@ -1,0 +1,9 @@
+Hello,,,,,,,,
+
+
+The invoice numbetr generated for your purchase is  INV-1101
+Due Amount- $500
+Due Date -03-03-2022
+Please contac on the Email Id :ganeshgobre7@gmail.com for any query.
+
+Thank You!!!

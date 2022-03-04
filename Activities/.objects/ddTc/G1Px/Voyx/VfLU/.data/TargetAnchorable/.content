@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-16"?>
+<TargetAnchorable BrowserURL="https://www.facebook.com/" ContentHash="UARLRw1DgEe4pD9wxTcx6g" DesignTimeRectangle="789, 259, 364, 52" ElementType="InputBox" FriendlyName="'INPUT email'" FullSelectorArgument="&lt;webctrl tag='INPUT' type='text' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='INPUT' type='text' aaname='' /&gt;" Guid="2386e898-3150-44fc-b84b-d9d2b5a8ea95" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Facebook – log in or sign up' /&gt;" SearchSteps="FuzzySelector, Image" xmlns="http://schemas.uipath.com/workflow/activities/uix">
+  <imageRef attrName="ImageBase64" xmlns="">0G4NNlJa5GkSPY1rmgFwN8g</imageRef>
+  <imageRef attrName="InformativeScreenshot" originalValue="8e88873f6c947844917c26d07178fbce.png" xmlns="">0M-3a-_u74kq_hjKJ75yh0w</imageRef>
+</TargetAnchorable>

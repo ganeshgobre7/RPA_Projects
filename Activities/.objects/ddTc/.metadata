@@ -1,0 +1,12 @@
+﻿{
+  "Id": "ddTcngko7UiE2Yz1aP6WaQ",
+  "Reference": "1p7CMAoDVEezUJ63t31qJg/ddTcngko7UiE2Yz1aP6WaQ",
+  "Name": "Chrome: Facebook – log in or sign up",
+  "Type": "App",
+  "Created": "2022-02-27T09:34:16.5662461Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=21.10.5.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2022-02-27T09:34:16.5662461Z"
+}

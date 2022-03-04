@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-16"?>
-<TargetAnchorable BrowserURL="https://www.facebook.com/" ContentHash="4xLtcJE8wEupTU54MTekeg" DesignTimeRectangle="773, 203, 396, 496" FriendlyName="'Log InForgotten'" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div' idx='2' parentid='content' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl type='' aaname='' parentid='content' tag='DIV' check:text='Log InForgotten password?Create New AccountCreate a Page for a celebrity, brand or business.' /&gt;" Guid="84b15daf-b632-4578-b0c7-2ae496be6651" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Facebook – log in or sign up' /&gt;" SearchSteps="FuzzySelector, Image" xmlns="http://schemas.uipath.com/workflow/activities/uix">
-  <imageRef attrName="ImageBase64" xmlns="">0x5NV024MiUKce7XylQt--w</imageRef>
-  <imageRef attrName="InformativeScreenshot" originalValue="404a122512a0c810635c1419f99490a0.png" xmlns="">0WboPAAnLik2ErSE1iVfkeQ</imageRef>
-</TargetAnchorable>
