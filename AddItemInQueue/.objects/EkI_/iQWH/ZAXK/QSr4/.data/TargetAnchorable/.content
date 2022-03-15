@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-16"?>
+<TargetAnchorable BrowserURL="https://www.xe.com/currencyconverter/convert/?Amount=2&amp;From=USD&amp;To=INR" ContentHash="_y0WRAKwPkSAOuNXbLDRFg" DesignTimeRectangle="534, 403, 105, 21" FriendlyName="'USD – US Dollar'" FullSelectorArgument="&lt;webctrl aaname='USD – ' parentid='midmarketFromCurrency-option-0' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='USD – ' parentid='midmarketFromCurrency-option-0' tag='DIV' type='' check:text='USD – US Dollar' /&gt;" Guid="7c1af9e4-5d6d-43ab-a712-658f91d07668" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='eyJ1c2VySWQiOiI3NjZjODUxNy05MWNiLTRjMDYtYThhMC05NDlkOWJhZWE0ODgifQ==/*yieldify*/' title='2 USD to INR - US Dollars to Indian Rupees Exchange Rate' /&gt;" SearchSteps="FuzzySelector, Image" xmlns="http://schemas.uipath.com/workflow/activities/uix">
+  <imageRef attrName="ImageBase64" xmlns="">0vC3x3kYhfkmo3woNr-UNKg</imageRef>
+  <imageRef attrName="InformativeScreenshot" originalValue="5b590fa5551c5637ea41ad93c05c60fc.png" xmlns="">0e8wbEd-JxkuF_6hmHP2Onw</imageRef>
+</TargetAnchorable>

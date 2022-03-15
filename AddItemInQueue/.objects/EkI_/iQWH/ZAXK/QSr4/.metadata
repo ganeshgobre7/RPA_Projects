@@ -1,0 +1,14 @@
+﻿{
+  "Id": "QSr4ZuVmS0yQZrdQfla1Ng",
+  "Reference": "tC2d9D4zAUemx5hZE_5XwQ/QSr4ZuVmS0yQZrdQfla1Ng",
+  "ParentRef": "tC2d9D4zAUemx5hZE_5XwQ/ZAXKUpeOYU2OY8X50lcShw",
+  "Name": "USD – US Dollar",
+  "Type": "Element",
+  "TaxonomyType": "None",
+  "Created": "2022-03-08T15:40:59.0446924Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=21.10.5.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2022-03-08T15:40:59.0446924Z"
+}

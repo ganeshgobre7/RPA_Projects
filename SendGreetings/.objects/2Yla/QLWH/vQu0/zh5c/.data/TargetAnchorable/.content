@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-16"?>
+<TargetAnchorable ContentHash="v6BJl5Qb6E2RNuz9O6xgsg" DesignTimeRectangle="116, 46, 1086, 28" FriendlyName="'web.whatsapp.com'" FullSelectorArgument="&lt;ctrl name='(2) WhatsApp - Google Chrome' role='pane' /&gt;&lt;ctrl name='Google Chrome' role='pane' /&gt;&lt;ctrl idx='2' role='grouping' /&gt;" FuzzySelectorArgument="&lt;ctrl name='(2) WhatsApp - Google Chrome' role='pane' /&gt;&lt;ctrl name='Google Chrome' role='pane' /&gt;&lt;ctrl automationid='' role='grouping' check:fulltext='web.whatsapp.com' /&gt;" Guid="7826c413-0503-4942-bd1f-64327cc1467a" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='Chrome_WidgetWin_1' title='(2) WhatsApp - Google Chrome' /&gt;" SearchSteps="Selector, FuzzySelector, Image" xmlns="http://schemas.uipath.com/workflow/activities/uix">
+  <imageRef attrName="ImageBase64" xmlns="">08FJh0fV_QEuCDILfSIPwUw</imageRef>
+  <imageRef attrName="InformativeScreenshot" originalValue="8dc3a298220eef3756d0a5bb4558ebb0.png" xmlns="">09zUE5vAsHk6h25u5p_uJ0A</imageRef>
+</TargetAnchorable>

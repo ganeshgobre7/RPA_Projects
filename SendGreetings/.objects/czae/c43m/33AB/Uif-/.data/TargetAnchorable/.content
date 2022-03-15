@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-16"?>
+<TargetAnchorable BrowserURL="https://web.whatsapp.com/" ContentHash="WknsttzQK0-l_5QolfyYZQ" DesignTimeRectangle="85, 394, 154, 22" FriendlyName="'Ankit Singh Rathore'" FullSelectorArgument="&lt;webctrl aaname=' Singh Rathore' parentid='pane-side' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname=' Singh Rathore' parentid='pane-side' tag='SPAN' type='' check:text='Ankit Singh Rathore' /&gt;" Guid="78c3e405-3ffc-4be4-99c8-a484099df0c8" ScopeSelectorArgument="&lt;html app='chrome.exe' title='(2) WhatsApp' /&gt;" SearchSteps="FuzzySelector, Image" xmlns="http://schemas.uipath.com/workflow/activities/uix">
+  <imageRef attrName="ImageBase64" xmlns="">0oz5ssSrWLkC9WwK8F7pPNw</imageRef>
+  <imageRef attrName="InformativeScreenshot" originalValue="b38945943ad00acecf8009de3567a891.png" xmlns="">0000NWefvmkO1x4XkRz8Zmg</imageRef>
+</TargetAnchorable>

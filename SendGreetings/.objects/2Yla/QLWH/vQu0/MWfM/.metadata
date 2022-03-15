@@ -1,0 +1,14 @@
+﻿{
+  "Id": "MWfMiygUZk2MQ2WX1gfePw",
+  "Reference": "J8jkZnV_OEmpZ03qGGW7Tg/MWfMiygUZk2MQ2WX1gfePw",
+  "ParentRef": "J8jkZnV_OEmpZ03qGGW7Tg/vQu0RhNnbkyyzmcIwfuXQA",
+  "Name": "web.whatsapp.com",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Created": "2022-03-14T18:52:54.3361733Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=21.10.5.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2022-03-14T18:52:54.3361733Z"
+}

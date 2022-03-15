@@ -1,0 +1,14 @@
+﻿{
+  "Id": "IDfbpuwhiUeLl5Vt9zw9vg",
+  "Reference": "J8jkZnV_OEmpZ03qGGW7Tg/IDfbpuwhiUeLl5Vt9zw9vg",
+  "ParentRef": "J8jkZnV_OEmpZ03qGGW7Tg/33ABUwzgWE-NyQXLwFlMQg",
+  "Name": "gana",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Created": "2022-03-14T19:18:05.8302407Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=21.10.5.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2022-03-14T19:18:05.8302407Z"
+}

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-16"?>
+<TargetAnchorable BrowserURL="https://www.xe.com/currencyconverter/convert/?Amount=2&amp;From=USD&amp;To=INR" ContentHash="L0hac95ZmEadDkHY641HYQ" DesignTimeRectangle="155, 367, 319, 50" ElementType="InputBox" FriendlyName="'$'" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;section&amp;gt;div&amp;gt;div&amp;gt;main&amp;gt;form&amp;gt;div&amp;gt;div' parentid='__next' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl type='' parentid='__next' tag='DIV' aaname='' /&gt;" Guid="a874bb03-8c17-4e49-9093-a4684ad692ae" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='eyJ1c2VySWQiOiI3NjZjODUxNy05MWNiLTRjMDYtYThhMC05NDlkOWJhZWE0ODgifQ==/*yieldify*/' title='2 USD to INR - US Dollars to Indian Rupees Exchange Rate' /&gt;" SearchSteps="FuzzySelector, Image" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TargetAnchorable.Anchors>
+    <scg:List x:TypeArguments="ITarget" Capacity="4">
+      <Target DesignTimeRectangle="155, 339, 60, 24" ElementType="Text" FriendlyName="'Amount'" FullSelectorArgument="&lt;webctrl tag='LABEL' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='LABEL' type='' aaname='Amount' check:text='Amount' /&gt;" SearchSteps="FuzzySelector, Image">
+        <imageRef attrName="ImageBase64" xmlns="">1kvDtpd6ys0WiwnIqIZYVBg</imageRef>
+      </Target>
+    </scg:List>
+  </TargetAnchorable.Anchors>
+  <imageRef attrName="ImageBase64" xmlns="">0abFAVOv89EuaUIk3R-Sgyw</imageRef>
+  <imageRef attrName="InformativeScreenshot" originalValue="4e779a3ec8eddf511745d440a7aa8961.png" xmlns="">0oZ7knnxMoUGbA7wRTDlgEA</imageRef>
+</TargetAnchorable>

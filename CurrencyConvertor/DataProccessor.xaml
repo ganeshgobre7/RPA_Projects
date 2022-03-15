@@ -1,0 +1,367 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Proccessor" mva:VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="669,701" sap2010:WorkflowViewState.IdRef="Proccessor_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:av="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:sd="clr-namespace:System.Data;assembly=System.Data" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <scg:List x:TypeArguments="x:String" Capacity="40">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>System.Runtime.InteropServices</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>System.Activities.DynamicUpdate</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities.Models</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>System.Xml.Serialization</x:String>
+      <x:String>UiPath.Excel</x:String>
+      <x:String>UiPath.Excel.Activities</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>UiPath.DataTableUtilities</x:String>
+      <x:String>UiPath.Core.Activities.Orchestrator</x:String>
+    </scg:List>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <scg:List x:TypeArguments="AssemblyReference" Capacity="32">
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>System.ServiceModel</AssemblyReference>
+      <AssemblyReference>Microsoft.Bcl.AsyncInterfaces</AssemblyReference>
+      <AssemblyReference>System.ValueTuple</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Composition</AssemblyReference>
+      <AssemblyReference>UiPath.Excel</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities.Design</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities.Design</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>System.Runtime.WindowsRuntime</AssemblyReference>
+    </scg:List>
+  </TextExpression.ReferencesForImplementation>
+  <Flowchart DisplayName="Proccessor" sap:VirtualizedContainerService.HintSize="658,636" sap2010:WorkflowViewState.IdRef="Flowchart_1">
+    <Flowchart.Variables>
+      <Variable x:TypeArguments="x:String" Default="ConvertorQueue" Name="queueName" />
+      <Variable x:TypeArguments="ui:QueueItem" Name="queueItem" />
+      <Variable x:TypeArguments="x:String" Name="amount" />
+      <Variable x:TypeArguments="x:String" Name="from" />
+      <Variable x:TypeArguments="x:String" Name="toCurrency" />
+      <Variable x:TypeArguments="sd:DataTable" Name="resultData" />
+      <Variable x:TypeArguments="x:String" Name="result" />
+    </Flowchart.Variables>
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+        <av:Point x:Key="ShapeLocation">270,2.5</av:Point>
+        <av:Size x:Key="ShapeSize">60,75</av:Size>
+        <av:PointCollection x:Key="ConnectorLocation">300,77.5 300,124.5</av:PointCollection>
+        <x:Double x:Key="Width">624</x:Double>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <Flowchart.StartNode>
+      <x:Reference>__ReferenceID6</x:Reference>
+    </Flowchart.StartNode>
+    <FlowStep x:Name="__ReferenceID0">
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <av:Point x:Key="ShapeLocation">200,209</av:Point>
+          <av:Size x:Key="ShapeSize">200,22</av:Size>
+          <av:PointCollection x:Key="ConnectorLocation">300,231 300,286.5</av:PointCollection>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+      <ui:GetQueueItem ContinueOnError="{x:Null}" TimeoutMS="{x:Null}" DisplayName="Get Transaction Item" sap:VirtualizedContainerService.HintSize="200,22" sap2010:WorkflowViewState.IdRef="GetQueueItem_1" QueueType="[queueName]" TransactionItem="[queueItem]">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </ui:GetQueueItem>
+      <FlowStep.Next>
+        <FlowDecision x:Name="__ReferenceID1" Condition="[queueItem is Nothing]" DisplayName="Flow Decision" sap:VirtualizedContainerService.HintSize="79,87" sap2010:WorkflowViewState.IdRef="FlowDecision_1">
+          <sap:WorkflowViewStateService.ViewState>
+            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              <av:Point x:Key="ShapeLocation">260.5,286.5</av:Point>
+              <av:Size x:Key="ShapeSize">79,87</av:Size>
+              <av:PointCollection x:Key="TrueConnector">260.5,330 230.5,330 230.5,380 200,380</av:PointCollection>
+              <av:PointCollection x:Key="FalseConnector">339.5,330 369.5,330 369.5,410 380,410</av:PointCollection>
+            </scg:Dictionary>
+          </sap:WorkflowViewStateService.ViewState>
+          <FlowDecision.True>
+            <FlowStep x:Name="__ReferenceID4">
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <av:Point x:Key="ShapeLocation">0,347</av:Point>
+                  <av:Size x:Key="ShapeSize">200,66</av:Size>
+                  <av:PointCollection x:Key="ConnectorLocation">100,413 100,464.5</av:PointCollection>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+              <Sequence sap:VirtualizedContainerService.HintSize="200,66" sap2010:WorkflowViewState.IdRef="Sequence_4">
+                <sap:WorkflowViewStateService.ViewState>
+                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                  </scg:Dictionary>
+                </sap:WorkflowViewStateService.ViewState>
+                <ui:WriteRange AddHeaders="False" DataTable="[resultData]" DisplayName="Write Range" sap:VirtualizedContainerService.HintSize="334,115" sap2010:WorkflowViewState.IdRef="WriteRange_1" SheetName="Sheet1" StartingCell="D2" WorkbookPath="CurrencyConvertorFile.xlsx" />
+              </Sequence>
+              <FlowStep.Next>
+                <FlowStep x:Name="__ReferenceID5">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <av:Point x:Key="ShapeLocation">0,464.5</av:Point>
+                      <av:Size x:Key="ShapeSize">200,51</av:Size>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="200,51" sap2010:WorkflowViewState.IdRef="MessageBox_4" Text="[&quot;No Item Exists in Queue&quot;]">
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                  </ui:MessageBox>
+                </FlowStep>
+              </FlowStep.Next>
+            </FlowStep>
+          </FlowDecision.True>
+          <FlowDecision.False>
+            <FlowStep x:Name="__ReferenceID2">
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <av:Point x:Key="ShapeLocation">380,377</av:Point>
+                  <av:Size x:Key="ShapeSize">200,66</av:Size>
+                  <av:PointCollection x:Key="ConnectorLocation">480,443 480,473 490,473 490,477</av:PointCollection>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+              <Sequence sap:VirtualizedContainerService.HintSize="200,66" sap2010:WorkflowViewState.IdRef="Sequence_1">
+                <sap:WorkflowViewStateService.ViewState>
+                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                  </scg:Dictionary>
+                </sap:WorkflowViewStateService.ViewState>
+                <Assign sap:VirtualizedContainerService.HintSize="262,60" sap2010:WorkflowViewState.IdRef="Assign_1">
+                  <Assign.To>
+                    <OutArgument x:TypeArguments="x:String">[amount]</OutArgument>
+                  </Assign.To>
+                  <Assign.Value>
+                    <InArgument x:TypeArguments="x:String">[queueItem.SpecificContent("Amount").ToString]</InArgument>
+                  </Assign.Value>
+                </Assign>
+                <Assign sap:VirtualizedContainerService.HintSize="262,60" sap2010:WorkflowViewState.IdRef="Assign_2">
+                  <Assign.To>
+                    <OutArgument x:TypeArguments="x:String">[from]</OutArgument>
+                  </Assign.To>
+                  <Assign.Value>
+                    <InArgument x:TypeArguments="x:String">[queueItem.SpecificContent("From").ToString]</InArgument>
+                  </Assign.Value>
+                </Assign>
+                <Assign sap:VirtualizedContainerService.HintSize="262,60" sap2010:WorkflowViewState.IdRef="Assign_3">
+                  <Assign.To>
+                    <OutArgument x:TypeArguments="x:String">[toCurrency]</OutArgument>
+                  </Assign.To>
+                  <Assign.Value>
+                    <InArgument x:TypeArguments="x:String">[queueItem.SpecificContent("To_Currency").ToString]</InArgument>
+                  </Assign.Value>
+                </Assign>
+              </Sequence>
+              <FlowStep.Next>
+                <FlowStep x:Name="__ReferenceID3">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <av:Point x:Key="ShapeLocation">390,477</av:Point>
+                      <av:Size x:Key="ShapeSize">200,66</av:Size>
+                      <av:PointCollection x:Key="ConnectorLocation">590,510 620,510 620,220 400,220</av:PointCollection>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <Sequence sap:VirtualizedContainerService.HintSize="630,2618" sap2010:WorkflowViewState.IdRef="Sequence_2">
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                    <uix:NApplicationCard AttachMode="SingleWindow" CloseMode="IfOpenedByAppBrowser" DisplayName="Use Browser Chrome: Xe Currency Converter - Live Exchange Rates Today" sap:VirtualizedContainerService.HintSize="588,2526" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="098acd5f-d44d-4bfc-80fc-39c77ace4765" Version="V1">
+                      <uix:NApplicationCard.Body>
+                        <ActivityAction x:TypeArguments="x:Object">
+                          <ActivityAction.Argument>
+                            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+                          </ActivityAction.Argument>
+                          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="554,2310" sap2010:WorkflowViewState.IdRef="Sequence_3">
+                            <Sequence.Variables>
+                              <Variable x:TypeArguments="x:String" Name="getResult" />
+                              <Variable x:TypeArguments="scg:IEnumerable(ui:QueueItem)" Name="retriveQueueItem" />
+                            </Sequence.Variables>
+                            <sap:WorkflowViewStateService.ViewState>
+                              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                              </scg:Dictionary>
+                            </sap:WorkflowViewStateService.ViewState>
+                            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Amount'" EmptyFieldMode="MultiLine" sap:VirtualizedContainerService.HintSize="512,216" sap2010:WorkflowViewState.IdRef="NTypeInto_1" ScopeIdentifier="098acd5f-d44d-4bfc-80fc-39c77ace4765" Text="[amount]" Version="V1">
+                              <uix:NTypeInto.Target>
+                                <uix:TargetAnchorable BrowserURL="https://www.xe.com/currencyconverter/" DesignTimeRectangle="155, 548, 319, 50" ElementType="InputBox" FriendlyName="'NT$'" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;section&amp;gt;div&amp;gt;div&amp;gt;main&amp;gt;form&amp;gt;div&amp;gt;div' parentid='__next' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl type='' parentid='__next' tag='DIV' aaname='' /&gt;" Guid="fb69f82e-33de-4546-8f93-f8983af06e57" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAUMAAAA2CAYAAABdq/vBAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAPISURBVHhe7d0/TuNAGIdhH4Kaa+x1aCm5CFLuQQHXoKCgJ1WEFAmFdE5iJ7Pzmz9m7CRIODYimfeRviXBJrvVqxmbZIvdbmc0222cbWtqTX1saoZhmD80hzplp9M1P755sYEuht0QugBqWi9Ym6o7FcMwzB+apE9HIxk61w1ikUYwhnDx+Wlms5mZTqfm7e2NYRjm7Ec9U9fUt/2VoovhVwTX67U7eT6fm7IsXS0B4BKoZ+qa+qbOqXdpFF0M9Q0tH3XCcrkMPwoAl0mdU+/SbXMRQ7hYfLpiAkAO1Dt1LwaxcA/CqlBLSADIgXrXrA7tuBjqzosuLnKNEEAu1Dt1z995djH0t6R1twUAcqLuqX/qYOF+J4cYAshQjKE6WLgHxBBAhpoY2nEx3FQVMQSQHXVP/SOGALLmYrhJY2ifEEMAuWnFUKtCYgggRzGG6iAxBJAtYggAlrq3VgztFPpDT4ghgNwQQwCwzieG70/mZvIangDAsIaLoWJ1/c9cHQnW88Qeu30y+mAw91jnfjM3jx/+B82ruW8duzMP7+EQAAzEx3CTxnBzWgzt3L+E7yXSGLZ9mIdbe+xgRJNjcWX4MiGIAAY3SgyvrifmOXw76hXDNHzNNtmf/7VyBIDTuRiuB4zh/aP/2o3VcDEEgOENH0O7RZ4/3u1tZXvFMK42dYwYAhjRfgztk1Nj2Nz0SOLX75qh5VaH9niYQ9cjAeBUI8XQChGL2+XeMYxaUeQGCoBhjRdDywUwhOvkGDbb5HD+wdcCgH5GjWGzXbYRGy6G8Zrk/h1rAOhr5Bha6fb2hzFsRS+J4fGwAkA/48fQ8tvln8cwvqY7FmP4zd8DAH39SgybqPXaJnffjkcIAQxvuBiOLa4MAWAE5xNDABjRfgz7vgMFAM4YMQQAixgCgEUMAcAihgBguRja/iUx5D+EApAfYggAlo9hRQwB5I0YAoDVjmHlHxBDALkhhgBgqXvqnzpIDAFkqxXDqqrdk+l0ana7XTgFAC6beqfuqX/qoI+hreJsNjNlWYbTAOCyqXfqnvrXiuFisTDzOR+qDyAP6p2614phujpcLpfhVAC4TOqcWxWGLbKPYR1jWNtl48qdoGJqCck1RACXQj1T19Q3f1lw1awK1cGiDjH0QfR3lrV01Mm6uKi7LQzDMOc+6pm65rbG4Q5ybJ86aGO4dVXsBlG/iKg3MOvjbVbprNZuSoZhmD84sVFpt9Qx1zNFsBNC9U8ddDE8FsRuFPfCqFnFSf4RDMMwvzahQZ02xWb5EH417VAI63pr/gPmvP3HRtQS/QAAAABJRU5ErkJggg==" InformativeScreenshot="ab4536403534f2e70680bde156ff3d19.png" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='eyJ1c2VySWQiOiI3NjZjODUxNy05MWNiLTRjMDYtYThhMC05NDlkOWJhZWE0ODgifQ==/*yieldify*/' title='Xe Currency Converter - Live Exchange Rates Today' /&gt;" SearchSteps="FuzzySelector, Image">
+                                  <uix:TargetAnchorable.Anchors>
+                                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                      <uix:Target DesignTimeRectangle="155, 520, 60, 24" ElementType="Text" FriendlyName="'Amount'" FullSelectorArgument="&lt;webctrl tag='LABEL' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='LABEL' type='' aaname='Amount' check:text='Amount' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAEAAAAAcCAYAAADRJblSAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAHJSURBVFhH7ZZNbsIwEIU5RNe5Rq/DNstcJFLuwQKukQULDoGExBEIrn/G9rM9SRNXqnCSJ70i7PHPfB6bHsTGtQOgz81qB0Cfm9UOgD43KxZA332Lr4pcX8SD2svWTbRVJ3r6ZsUAUIEAoGrE6U5dpep+EUedyxwA145OvhNtbSAcz0/qLFRLANjyV0k/zg3BiK+BrRJVHVgxtlq4NtRTnAiudXulLi0/HtuT/bjE4n3AodkDRXc30ycVAcDE5NdgARNhFC4WuG5oDBrJj4/1lbYUAG89dhEAF2w37E8qvAaQhJ0MF0raPED/wAKUJC4DgEuK2dvcK+A2B4T4a8BtcKptOrEUNB83fQV0iFaSxzwAflHeuEicmNKcNi7GCN8e3Mv/AeDuSuykzHIBfGAFcOVv5RZ2E+QCgHVwMxNvAPcw5gMI45QIgJ88PBmSm8D2z0uWbYO5YuND60ExzgZAtuOlDADmtQ4Fv9t60j8A0Prt/wClKEZuus+9AlK+imG8FDyC29QiAG+0/LMGjwKQfUyi79U5ABAmzA9YmzUAnzgftGYfpNmOuR4KtwTAJ4bWwUOOh4/3KIASk8lxACA96XTAC/0q3YP4AYJ8CK8vUuWiAAAAAElFTkSuQmCC" SearchSteps="FuzzySelector, Image" />
+                                    </scg:List>
+                                  </uix:TargetAnchorable.Anchors>
+                                </uix:TargetAnchorable>
+                              </uix:NTypeInto.Target>
+                            </uix:NTypeInto>
+                            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'From'" EmptyFieldMode="MultiLine" sap:VirtualizedContainerService.HintSize="512,216" sap2010:WorkflowViewState.IdRef="NTypeInto_2" InteractionMode="WindowMessages" ScopeIdentifier="098acd5f-d44d-4bfc-80fc-39c77ace4765" Text="[from+&quot;[k(enter)]&quot;]" Version="V1">
+                              <uix:NTypeInto.Target>
+                                <uix:TargetAnchorable BrowserURL="https://www.xe.com/currencyconverter/convert/?Amount=2&amp;From=CDF&amp;To=PGK" DesignTimeRectangle="490, 434, 319, 50" ElementType="InputBox" FriendlyName="'INPUT midmarketFromCurr…'" FullSelectorArgument="&lt;webctrl aria-role='combobox' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl aria-role='combobox' tag='INPUT' type='text' aaname='From' /&gt;" Guid="07192c48-aef2-42c5-bb8d-7d22fe2b6ed8" ImageBase64="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" InformativeScreenshot="a727ade9543e5bd4453e2a3d51f9851d.png" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='eyJ1c2VySWQiOiI3NjZjODUxNy05MWNiLTRjMDYtYThhMC05NDlkOWJhZWE0ODgifQ==/*yieldify*/' title='2 CDF to PGK - Congolese Francs to Papua New Guinean Kina Exchange Rate' /&gt;" SearchSteps="FuzzySelector, Image">
+                                  <uix:TargetAnchorable.Anchors>
+                                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                      <uix:Target DesignTimeRectangle="490, 406, 40, 24" ElementType="Text" FriendlyName="'From'" FullSelectorArgument="&lt;webctrl aaname='From' tag='LABEL' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='From' tag='LABEL' type='' check:text='From' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAACwAAAAcCAYAAAAa/l2sAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAEzSURBVFhH7ZQxDgFBFIYdQu0aSqUT6OioSBQq4QAKjQM4gULrCqJSi8QFiI7C7Mi/8XjG2zW7sWY22T/5k933/pn59u1mSzpnKoCzVgGctQrgrPUE3u0PulZv6nKlKnownOjL5fpIu1P+gWFc+6rEwIvlKpx4pzcObU5/vdnGvhlaP53Nn9d0z/u8xpUamFs6jLvR6uvj6Rybgdvd0UcNeS6rb5g/BD8Q0yTx9XQIJosJo2Y+FO3JM1LNnHJq4KhXbdbpE6EpS7m42ldgDifpG7B5AO1rAvOcbQ36ObDthJ0D03r0kIHQR44f7A0whM3RMy39JbwAhpL8h0mpgPOiRMBBEDh3JLAU9sFvwFLAN4fAUsNXl6RiEiul/morYGmhK0cCS+GX0XfjN2AbuNtNObTSd8xqdfvRIC0FAAAAAElFTkSuQmCC" SearchSteps="FuzzySelector, Image" />
+                                    </scg:List>
+                                  </uix:TargetAnchorable.Anchors>
+                                </uix:TargetAnchorable>
+                              </uix:NTypeInto.Target>
+                            </uix:NTypeInto>
+                            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'To'" EmptyFieldMode="MultiLine" sap:VirtualizedContainerService.HintSize="512,216" sap2010:WorkflowViewState.IdRef="NTypeInto_3" InteractionMode="WindowMessages" ScopeIdentifier="098acd5f-d44d-4bfc-80fc-39c77ace4765" Text="[toCurrency+&quot;[k(enter)]&quot;]" Version="V1">
+                              <uix:NTypeInto.Target>
+                                <uix:TargetAnchorable BrowserURL="https://www.xe.com/currencyconverter/" DesignTimeRectangle="891, 548, 319, 50" ElementType="InputBox" FriendlyName="'INPUT midmarketToCurren…'" FullSelectorArgument="&lt;webctrl aria-role='combobox' id='midmarketToCurrency' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl aria-role='combobox' id='midmarketToCurrency' tag='INPUT' type='text' aaname='To' /&gt;" Guid="1f3a63fa-711f-47f5-b385-9815c25a0e70" ImageBase64="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" InformativeScreenshot="10119ef05a43d18aa99c781dcba17ff5.png" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='eyJ1c2VySWQiOiI3NjZjODUxNy05MWNiLTRjMDYtYThhMC05NDlkOWJhZWE0ODgifQ==/*yieldify*/' title='Xe Currency Converter - Live Exchange Rates Today' /&gt;" SearchSteps="FuzzySelector, Image">
+                                  <uix:TargetAnchorable.Anchors>
+                                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                      <uix:Target DesignTimeRectangle="891, 520, 18, 24" ElementType="Text" FriendlyName="'To'" FullSelectorArgument="&lt;webctrl aaname='To' tag='LABEL' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='To' tag='LABEL' type='' check:text='To' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAABYAAAAcCAYAAABlL09dAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADWSURBVEhL7ZK9DYMwEEYZInXWyDq0lFkEyXukgDUoKBgCCYkRMBeDDuN/+eyQik96Luy7p7PlAi7KLZa5xTK6uGfweL7CsAGLw/mTWMsANcrqHrcISRObN6tamPDoCFk8NW9dKmHQYc0WmnhsocS9splxc4ZPhXLl/UliOa15dfk059RpYvNnyJvkin898WVvvKVjKLHI+RVH8v5xXkjiVUUsIbxiceZoWKPRxLrM3RDLLj6F7qIUCoHzIBbuQYjdDSp7MafhFdvFnIQmtiezGxaVxQeHL61ZwhmdSvlnAAAAAElFTkSuQmCC" SearchSteps="FuzzySelector, Image" />
+                                    </scg:List>
+                                  </uix:TargetAnchorable.Anchors>
+                                </uix:TargetAnchorable>
+                              </uix:NTypeInto.Target>
+                            </uix:NTypeInto>
+                            <uix:NClick ClickType="Single" DisplayName="Click 'Convert'" sap:VirtualizedContainerService.HintSize="512,156" sap2010:WorkflowViewState.IdRef="NClick_1" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="098acd5f-d44d-4bfc-80fc-39c77ace4765" Version="V1">
+                              <uix:NClick.Target>
+                                <uix:TargetAnchorable BrowserURL="https://www.xe.com/currencyconverter/" DesignTimeRectangle="1106, 626, 104, 48" ElementType="Button" FriendlyName="'Convert'" FullSelectorArgument="&lt;webctrl tag='BUTTON' type='submit' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='BUTTON' type='submit' aaname='Convert' check:text='Convert' /&gt;" Guid="4bccd77f-c66a-4e76-94c8-7d70a3ab38e3" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAGwAAAA0CAYAAABvu91XAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAM1SURBVHhe7ZzBahRREEWz8Fv8EDd+hWvX4h+48BMEwa0I/oHgWly5cyOoGwXBKElEjJrYvnuZO6lUVzczON1WT+rCeYaeet3Tdd5LxkXPQVdZVErYwjIo7MX7393tp9+66/e/dtfufu4O7hRTgz6j3+g7+h8lFIYJ0QmLeYEHn56wmw+Pw8nF/wE+bC4Jq52VE7vT1sLwOzMqLnKgv2lrYbW7cqNdthaGTydRYZED+EHWwuqje27gB1kLi4qKXNATx5aooMgFPXFsiQqKXNATx5aooMgFPXFsiQqKXNATx5aooMgFPXFsiQqKXNATx5aooMgFPXFsiQqKXNATx5aoYNc8evljdbWLPH/zK6xdEveefe/eHp51Nx4cha/vCmQ2Ya8/na2u1M+Ho/PJb3YqtAjnuAdkFmHYRcjP5gyr0R9HlrrT9k7Yrccn3cnpH14DN2dfww3iRiNZfkf6GsnG/CevTvkzYhfFUDN1bvzrz6fY92rvwb6vj8fnq58uMuXCQyYXhuahibhh3HhUY5HEKGMNttG11GgrMVpAfnEoar6do+Cc77705y1emFb5psIkwjZZ0hE12QrTMV0L8TLUSNVo10ULyh+zwvxu9efT8SlAUgmzu8uvVDVeu0zCbKNsYyXMN9QLtOJ9tGii84q9Exat4CGsMN8YNXZbYTqG94Bj+hnvy55nKJhzpYSN3SyAAEmwwrQDbB2yrTA7F/9Xgiw7JzqP50oJA2qKXdn2OCJBUa12KaKGRY0eaqydj+ha/jXNkQScC+fcRJhq7Wu7BplFGBqKxg5lqOk+2l1gG2H2+n7RAO1AH4ndRJhi3+OuQWYRJvzNIXa1W3wTfd02wobqLWPXGzsvsHP3Sljxb9ATx5aooMgFPXFsiQqKXNATx5aooMgFPXFsiQqKXNATx5aooMgFPXFsiQqKXNATx5aooMgFPXFsiQqKXNATx5aooMgFPXFsiQqKXNATx5Z6oC83vQf66pHZ3PQema2H0nPTeyi9vvYhN72vfUBql+VEuwu5JAypry7KxehXFym103Jgd5YSCkPwOxMT8OmkPvLPA/qMfqPv+pvlMyiskjMlbFHpur91v9oXDEKHhAAAAABJRU5ErkJggg==" InformativeScreenshot="9033d7ac5abfa7c413032acd71a7f5e9.png" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='eyJ1c2VySWQiOiI3NjZjODUxNy05MWNiLTRjMDYtYThhMC05NDlkOWJhZWE0ODgifQ==/*yieldify*/' title='Xe Currency Converter - Live Exchange Rates Today' /&gt;" SearchSteps="FuzzySelector, Image" />
+                              </uix:NClick.Target>
+                            </uix:NClick>
+                            <uix:NGetText DisplayName="Get Text_Result'" sap:VirtualizedContainerService.HintSize="512,156" sap2010:WorkflowViewState.IdRef="NGetText_1" ScopeIdentifier="098acd5f-d44d-4bfc-80fc-39c77ace4765" Version="V1">
+                              <uix:NGetText.Target>
+                                <uix:TargetAnchorable BrowserURL="https://www.xe.com/currencyconverter/convert/?Amount=2&amp;From=CDF&amp;To=PGK" DesignTimeRectangle="155, 698, 1056, 51" ElementType="Text" FriendlyName="'0.0035249827 Papua'" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;section&amp;gt;div&amp;gt;div&amp;gt;main&amp;gt;form&amp;gt;div&amp;gt;div&amp;gt;p' idx='2' tag='P' /&gt;" FuzzySelectorArgument="&lt;webctrl type='' tag='P' /&gt;" Guid="2e996712-fada-46dc-8899-c1b9f2360a73" ImageBase64="" InformativeScreenshot="00ab53772273e3c23ea4727b25de94d4.png" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='eyJ1c2VySWQiOiI3NjZjODUxNy05MWNiLTRjMDYtYThhMC05NDlkOWJhZWE0ODgifQ==/*yieldify*/' title='2 CDF to PGK - Congolese Francs to Papua New Guinean Kina Exchange Rate' /&gt;" SearchSteps="Selector, FuzzySelector" />
+                              </uix:NGetText.Target>
+                              <uix:NGetText.Text>
+                                <OutArgument x:TypeArguments="x:String">[getResult]</OutArgument>
+                              </uix:NGetText.Text>
+                            </uix:NGetText>
+                            <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="512,84" sap2010:WorkflowViewState.IdRef="MessageBox_2" Text="[getResult]" />
+                            <ui:AddDataRow DataRow="{x:Null}" ArrayRow="[{getResult}]" DataTable="[resultData]" DisplayName="Add Data Row" sap:VirtualizedContainerService.HintSize="512,185" sap2010:WorkflowViewState.IdRef="AddDataRow_1" />
+                            <ui:SetTransactionStatus ContinueOnError="{x:Null}" Reason="{x:Null}" ServiceBaseAddress="{x:Null}" TimeoutMS="{x:Null}" DisplayName="Set Transaction Status" ErrorType="Business" sap:VirtualizedContainerService.HintSize="512,79" sap2010:WorkflowViewState.IdRef="SetTransactionStatus_1" Status="Successful" TransactionItem="[queueItem]">
+                              <ui:SetTransactionStatus.Analytics>
+                                <scg:Dictionary x:TypeArguments="x:String, InArgument" />
+                              </ui:SetTransactionStatus.Analytics>
+                              <ui:SetTransactionStatus.Output>
+                                <InArgument x:TypeArguments="x:Object" x:Key="Result">
+                                  <mva:VisualBasicValue x:TypeArguments="x:Object" ExpressionText="getResult" />
+                                </InArgument>
+                              </ui:SetTransactionStatus.Output>
+                            </ui:SetTransactionStatus>
+                            <ui:GetQueueItems Duration="{x:Null}" From="{x:Null}" Priority="{x:Null}" Reference="{x:Null}" Skip="{x:Null}" TimeoutMS="{x:Null}" To="{x:Null}" Top="{x:Null}" DisplayName="Get Queue Items" FilterStrategy="StartsWith" sap:VirtualizedContainerService.HintSize="512,79" sap2010:WorkflowViewState.IdRef="GetQueueItems_2" QueueItemStates="All" QueueName="[queueName]" Result="[retriveQueueItem]" />
+                            <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="512,469" sap2010:WorkflowViewState.IdRef="CommentOut_1">
+                              <ui:CommentOut.Body>
+                                <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="476,391" sap2010:WorkflowViewState.IdRef="Sequence_8">
+                                  <sap:WorkflowViewStateService.ViewState>
+                                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                    </scg:Dictionary>
+                                  </sap:WorkflowViewStateService.ViewState>
+                                  <ui:ForEach x:TypeArguments="ui:QueueItem" CurrentIndex="{x:Null}" DisplayName="For Each" sap:VirtualizedContainerService.HintSize="434,299" sap2010:WorkflowViewState.IdRef="ForEach`1_4" Values="[retriveQueueItem]">
+                                    <ui:ForEach.Body>
+                                      <ActivityAction x:TypeArguments="ui:QueueItem">
+                                        <ActivityAction.Argument>
+                                          <DelegateInArgument x:TypeArguments="ui:QueueItem" Name="item" />
+                                        </ActivityAction.Argument>
+                                        <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="376,176" sap2010:WorkflowViewState.IdRef="Sequence_7">
+                                          <sap:WorkflowViewStateService.ViewState>
+                                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                            </scg:Dictionary>
+                                          </sap:WorkflowViewStateService.ViewState>
+                                          <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="334,84" sap2010:WorkflowViewState.IdRef="MessageBox_7" Text="[item]" />
+                                        </Sequence>
+                                      </ActivityAction>
+                                    </ui:ForEach.Body>
+                                  </ui:ForEach>
+                                </Sequence>
+                              </ui:CommentOut.Body>
+                            </ui:CommentOut>
+                          </Sequence>
+                        </ActivityAction>
+                      </uix:NApplicationCard.Body>
+                      <uix:NApplicationCard.TargetApp>
+                        <uix:TargetApp Area="-8, -8, 1382, 744" BrowserType="Chrome" IconBase64="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" InformativeScreenshot="a3ffb6ed9b7455286da7d91d946bf614.png" Selector="&lt;html app='chrome.exe' htmlwindowname='eyJ1c2VySWQiOiI3NjZjODUxNy05MWNiLTRjMDYtYThhMC05NDlkOWJhZWE0ODgifQ==/*yieldify*/' title='Xe Currency Converter - Live Exchange Rates Today'/&gt;" Url="https://www.xe.com/currencyconverter/" />
+                      </uix:NApplicationCard.TargetApp>
+                    </uix:NApplicationCard>
+                  </Sequence>
+                  <FlowStep.Next>
+                    <x:Reference>__ReferenceID0</x:Reference>
+                  </FlowStep.Next>
+                </FlowStep>
+              </FlowStep.Next>
+            </FlowStep>
+          </FlowDecision.False>
+        </FlowDecision>
+      </FlowStep.Next>
+    </FlowStep>
+    <x:Reference>__ReferenceID1</x:Reference>
+    <x:Reference>__ReferenceID2</x:Reference>
+    <x:Reference>__ReferenceID3</x:Reference>
+    <FlowStep x:Name="__ReferenceID6">
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <av:Point x:Key="ShapeLocation">200,124.5</av:Point>
+          <av:Size x:Key="ShapeSize">200,51</av:Size>
+          <av:PointCollection x:Key="ConnectorLocation">300,175.5 300,209</av:PointCollection>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+      <ui:BuildDataTable DataTable="[resultData]" DisplayName="Build Data Table" sap:VirtualizedContainerService.HintSize="200,51" sap2010:WorkflowViewState.IdRef="BuildDataTable_1" TableInfo="&lt;NewDataSet&gt;&#xA;  &lt;xs:schema id=&quot;NewDataSet&quot; xmlns=&quot;&quot; xmlns:xs=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:msdata=&quot;urn:schemas-microsoft-com:xml-msdata&quot;&gt;&#xA;    &lt;xs:element name=&quot;NewDataSet&quot; msdata:IsDataSet=&quot;true&quot; msdata:MainDataTable=&quot;TableName&quot; msdata:UseCurrentLocale=&quot;true&quot;&gt;&#xA;      &lt;xs:complexType&gt;&#xA;        &lt;xs:choice minOccurs=&quot;0&quot; maxOccurs=&quot;unbounded&quot;&gt;&#xA;          &lt;xs:element name=&quot;TableName&quot;&gt;&#xA;            &lt;xs:complexType&gt;&#xA;              &lt;xs:sequence&gt;&#xA;                &lt;xs:element name=&quot;Result&quot; msdata:Caption=&quot;&quot; minOccurs=&quot;0&quot;&gt;&#xA;                  &lt;xs:simpleType&gt;&#xA;                    &lt;xs:restriction base=&quot;xs:string&quot;&gt;&#xA;                      &lt;xs:maxLength value=&quot;100&quot; /&gt;&#xA;                    &lt;/xs:restriction&gt;&#xA;                  &lt;/xs:simpleType&gt;&#xA;                &lt;/xs:element&gt;&#xA;              &lt;/xs:sequence&gt;&#xA;            &lt;/xs:complexType&gt;&#xA;          &lt;/xs:element&gt;&#xA;        &lt;/xs:choice&gt;&#xA;      &lt;/xs:complexType&gt;&#xA;    &lt;/xs:element&gt;&#xA;  &lt;/xs:schema&gt;&#xA;&lt;/NewDataSet&gt;">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </ui:BuildDataTable>
+      <FlowStep.Next>
+        <x:Reference>__ReferenceID0</x:Reference>
+      </FlowStep.Next>
+    </FlowStep>
+    <x:Reference>__ReferenceID4</x:Reference>
+    <x:Reference>__ReferenceID5</x:Reference>
+  </Flowchart>
+</Activity>

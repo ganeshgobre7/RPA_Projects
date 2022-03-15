@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-16"?>
+<TargetApp Area="0, 0, 0, 0" BrowserType="Chrome" ContentHash="VdERZRUKD0acMGXr_H9fuQ" Selector="&lt;html app='chrome.exe' title='(2) WhatsApp'/&gt;" Url="https://web.whatsapp.com/" xmlns="http://schemas.uipath.com/workflow/activities/uix">
+  <imageRef attrName="IconBase64" xmlns="">079gVApKyp0SRrRhyXH-KHw</imageRef>
+  <imageRef attrName="InformativeScreenshot" originalValue="f26fc2d6502f9d75d8f9d8534036799e.png" xmlns="">0PEiLI7DGcUiDruHrbrkKkQ</imageRef>
+</TargetApp>

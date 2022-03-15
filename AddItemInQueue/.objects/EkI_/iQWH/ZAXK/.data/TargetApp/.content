@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-16"?>
+<TargetApp Area="0, 0, 0, 0" BrowserType="Chrome" ContentHash="BqMIdWZF0U6bC1i3Jl1tBA" Selector="&lt;html app='chrome.exe' htmlwindowname='eyJ1c2VySWQiOiI3NjZjODUxNy05MWNiLTRjMDYtYThhMC05NDlkOWJhZWE0ODgifQ==/*yieldify*/' title='2 USD to INR - US Dollars to Indian Rupees Exchange Rate'/&gt;" Url="https://www.xe.com/currencyconverter/convert/?Amount=2&amp;From=USD&amp;To=INR" xmlns="http://schemas.uipath.com/workflow/activities/uix">
+  <imageRef attrName="IconBase64" xmlns="">0qigxZo1dP0epmDB1PGYOQw</imageRef>
+  <imageRef attrName="InformativeScreenshot" originalValue="fa9e48a8302c59123e2389197628ddbc.png" xmlns="">0mNz2cmlWPU2B8OV85tDjUQ</imageRef>
+</TargetApp>

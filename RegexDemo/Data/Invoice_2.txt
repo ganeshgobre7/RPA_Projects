@@ -1,0 +1,9 @@
+Hello,,,,,,,,
+
+
+The invoice numbetr generated for your purchase is  INV-25542
+Due Amount- $250
+Due Date -03-03-2025
+Please contac on the Email Id :ankit7@gmail.com for any query.
+
+Thank You!!!

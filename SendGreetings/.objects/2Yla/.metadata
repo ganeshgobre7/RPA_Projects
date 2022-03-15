@@ -1,0 +1,12 @@
+﻿{
+  "Id": "2YlavElsnEaoynaSqe0jpg",
+  "Reference": "J8jkZnV_OEmpZ03qGGW7Tg/2YlavElsnEaoynaSqe0jpg",
+  "Name": "(2) WhatsApp - Google Chrome",
+  "Type": "App",
+  "Created": "2022-03-14T15:53:48.4877263Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=21.10.5.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2022-03-14T15:53:48.4877263Z"
+}

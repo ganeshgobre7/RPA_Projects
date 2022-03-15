@@ -1,0 +1,40 @@
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20210112;
+        h=message-id:from:to:subject:date:mime-version;
+        bh=FRU05frZRbK4UAHDlTdmVZtV9+7nMKZcWfmk5xOQP5E=;
+        b=isdQkT0DS3qnRrDGY5v+BKoa03qc5+F2ZUkQnkTXJWFcuMRuRLlGK2Aq7QUb4M6FWj
+         ZlxKNicdAufalDR+IsL1IIfvaKWEAwO+JQTtJMjF+wiB/uTf0lMTK/S52/5PUTH5t9sk
+         ds689q4XqGnXbX7piu7em9fLzJFGjGODS1JPolLBNelQbzwV8OSMu5Fb6PSyF8L/hBmY
+         KLBD4GqXDHOKqf0UvekaiTY3ArgFO1bWrE2CbhZvbNtyMj+Ldd2FOHt85KRbR1fz/dSl
+         mraggfVm/+T+wH/yYuIeri3g8U9YwHQZBsLvVDskpysAZpwXeahyJefQdQGYKSX/D3sg
+         EyVw==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20210112;
+        h=x-gm-message-state:message-id:from:to:subject:date:mime-version;
+        bh=FRU05frZRbK4UAHDlTdmVZtV9+7nMKZcWfmk5xOQP5E=;
+        b=YATEgSZvtO0BL1vOFny5KMewr2yOnrIam/tlhdjJVj98AIcf3IoBJ7fZg0jQHXsQM3
+         Qr5QJU7rELaRwLxghotIxfig4Q9uAgo3wEXbCXXvfJSZ0jUcc2pcmIS3W5RLTlb20TMS
+         44HRHnygs8UZOUPRq9c55U32T18KJYGVWo7/rXN72fyyeHzdPwR9iY6qZFPbgSDrQzw2
+         e82ozMZkeyy4RIe5gbt2GfxQa56nxmN1kZEELyBXgAPVUO9YUpW2aRE2VvN+ob2M+RX6
+         TdQtOMJne93LlQ4eVD9aVRrJ2t7dvMt2O9/1CnQs3G81BVGN21mcHRpeTlQmyjIuDgV4
+         AALg==
+X-Gm-Message-State: AOAM533XxEGBh8Gvvcsdcdat+Vcjvf51GhAMGQk/fiXYrj44Q4+8EdF5
+	zskyVtG5NxjifunV3sg3oGfFFCWBYiZUXw==
+X-Google-Smtp-Source: ABdhPJw1ttN3JXS/z/fgIk+eoEbWqxkEtAwBE9n+l+2Kxn85/zquTssdVkeht7DyrdPhQERjNwrMFg==
+X-Received: by 2002:a17:903:1246:b0:14f:e51e:baa7 with SMTP id u6-20020a170903124600b0014fe51ebaa7mr32053291plh.159.1646242746812;
+        Wed, 02 Mar 2022 09:39:06 -0800 (PST)
+Return-Path: <ggobre81@gmail.com>
+Received: from [192.168.1.204] ([103.141.116.115])
+        by smtp.gmail.com with ESMTPSA id z18-20020aa78892000000b004e19bd62d8bsm22463599pfe.23.2022.03.02.09.39.04
+        for <kanakbabar999@gmail>
+        (version=TLS1_2 cipher=ECDHE-ECDSA-AES128-GCM-SHA256 bits=128/128);
+        Wed, 02 Mar 2022 09:39:06 -0800 (PST)
+Message-ID: <621fabba.1c69fb81.4a3f3.9ba6@mx.google.com>
+From: Ganesh gobre <ggobre81@gmail.com>
+To: kanakbabar999@gmail
+Subject: Salary Slip
+Date: Wed, 02 Mar 2022 23:09:52 +0530
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="=-azNDhr9ZEBK6wpyiu3TL1w=="
+
+----- Message truncated -----

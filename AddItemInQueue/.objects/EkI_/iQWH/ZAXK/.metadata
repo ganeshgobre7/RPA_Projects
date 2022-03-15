@@ -1,0 +1,13 @@
+﻿{
+  "Id": "ZAXKUpeOYU2OY8X50lcShw",
+  "Reference": "tC2d9D4zAUemx5hZE_5XwQ/ZAXKUpeOYU2OY8X50lcShw",
+  "ParentRef": "tC2d9D4zAUemx5hZE_5XwQ/iQWHKOfBRUOJhx9GkdEtEg",
+  "Name": "Chrome: 2 USD to INR - US Dollars to Indian Rupees Exchange Rate",
+  "Type": "Screen",
+  "Created": "2022-03-08T15:40:22.3261938Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=21.10.5.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2022-03-08T15:40:22.3261938Z"
+}

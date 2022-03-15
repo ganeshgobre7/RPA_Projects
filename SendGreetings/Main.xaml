@@ -1,0 +1,167 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" mva:VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="669,2014" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:sd="clr-namespace:System.Data;assembly=System.Data" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <scg:List x:TypeArguments="x:String" Capacity="78">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>System.Xml.Serialization</x:String>
+      <x:String>UiPath.Excel</x:String>
+      <x:String>UiPath.Excel.Activities</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Activities.DynamicUpdate</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>System.Runtime.InteropServices</x:String>
+      <x:String>UiPath.DataTableUtilities</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>Microsoft.VisualBasic.CompilerServices</x:String>
+      <x:String>UiPath.Platform.Triggers</x:String>
+      <x:String>UiPath.Platform.Triggers.Scope</x:String>
+    </scg:List>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <scg:List x:TypeArguments="AssemblyReference" Capacity="48">
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization</AssemblyReference>
+      <AssemblyReference>UiPath.Excel</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities.Design</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>System.ServiceModel</AssemblyReference>
+      <AssemblyReference>Microsoft.Bcl.AsyncInterfaces</AssemblyReference>
+      <AssemblyReference>System.ValueTuple</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Composition</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Runtime.WindowsRuntime</AssemblyReference>
+    </scg:List>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence sap:VirtualizedContainerService.HintSize="630,1949" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <Sequence.Variables>
+      <Variable x:TypeArguments="sd:DataTable" Name="empData" />
+      <Variable x:TypeArguments="s:DateTime" Name="dob" />
+    </Sequence.Variables>
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <ui:ReadRange Range="{x:Null}" AddHeaders="True" DataTable="[empData]" DisplayName="Read Range" sap:VirtualizedContainerService.HintSize="588,87" sap2010:WorkflowViewState.IdRef="ReadRange_1" SheetName="Sheet1" WorkbookPath="C:\Users\admin\Desktop\EmployeeWhatsApp.xlsx" />
+    <ui:ForEachRow ColumnNames="{x:Null}" CurrentIndex="{x:Null}" DataTable="[empData]" DisplayName="For Each Row in Data Table" sap:VirtualizedContainerService.HintSize="588,1730" sap2010:WorkflowViewState.IdRef="ForEachRow_3">
+      <ui:ForEachRow.Body>
+        <ActivityAction x:TypeArguments="sd:DataRow">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="sd:DataRow" Name="CurrentRow" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="554,1610" sap2010:WorkflowViewState.IdRef="Sequence_20">
+            <Sequence.Variables>
+              <Variable x:TypeArguments="x:Double" Name="number" />
+            </Sequence.Variables>
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <ui:GetRowItem Column="{x:Null}" ColumnIndex="{x:Null}" ColumnName="DOB" DisplayName="Get Row Item" sap:VirtualizedContainerService.HintSize="512,185" sap2010:WorkflowViewState.IdRef="GetRowItem_2" Row="[CurrentRow]">
+              <ui:GetRowItem.Value>
+                <OutArgument x:TypeArguments="s:DateTime">[dob]</OutArgument>
+              </ui:GetRowItem.Value>
+            </ui:GetRowItem>
+            <ui:GetRowItem Column="{x:Null}" ColumnIndex="{x:Null}" ColumnName="MobileNumber" DisplayName="Get Row Item" sap:VirtualizedContainerService.HintSize="512,185" sap2010:WorkflowViewState.IdRef="GetRowItem_3" Row="[CurrentRow]">
+              <ui:GetRowItem.Value>
+                <OutArgument x:TypeArguments="x:Double">[number]</OutArgument>
+              </ui:GetRowItem.Value>
+            </ui:GetRowItem>
+            <If Condition="[dob.Day = DateTime.Today.Day and  dob.Month = DateTime.Today.Month]" sap:VirtualizedContainerService.HintSize="512,1068" sap2010:WorkflowViewState.IdRef="If_2">
+              <If.Then>
+                <Sequence DisplayName="Open Whats App" sap:VirtualizedContainerService.HintSize="476,881" sap2010:WorkflowViewState.IdRef="Sequence_22">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Browser Chrome: (2) WhatsApp" sap:VirtualizedContainerService.HintSize="434,789" sap2010:WorkflowViewState.IdRef="NApplicationCard_12" InteractionMode="WindowMessages" ScopeGuid="c8338feb-ea87-444e-b743-28c152f1ba73" Version="V1">
+                    <uix:NApplicationCard.Body>
+                      <ActivityAction x:TypeArguments="x:Object">
+                        <ActivityAction.Argument>
+                          <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+                        </ActivityAction.Argument>
+                        <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="376,573" sap2010:WorkflowViewState.IdRef="Sequence_21">
+                          <sap:WorkflowViewStateService.ViewState>
+                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                            </scg:Dictionary>
+                          </sap:WorkflowViewStateService.ViewState>
+                          <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'MobileNumberL'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="334,216" sap2010:WorkflowViewState.IdRef="NTypeInto_18" InteractionMode="DebuggerApi" ScopeIdentifier="c8338feb-ea87-444e-b743-28c152f1ba73" Text="[number.ToString+&quot;[k(enter)]&quot;]" Version="V1">
+                            <uix:NTypeInto.Target>
+                              <uix:TargetAnchorable BrowserURL="https://web.whatsapp.com/" DesignTimeRectangle="20, 266, 384, 35" FriendlyName="'LABEL'" FullSelectorArgument="&lt;webctrl tag='LABEL' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='LABEL' type='' aaname='' /&gt;" Guid="5e6a45a5-931c-4bdc-8a95-098ea9d94708" ImageBase64="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" InformativeScreenshot="2b85c6814d34e070e1626f200eaa97c3.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='(2) WhatsApp' /&gt;" SearchSteps="FuzzySelector, Image" />
+                            </uix:NTypeInto.Target>
+                          </uix:NTypeInto>
+                          <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Message'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="334,223" sap2010:WorkflowViewState.IdRef="NTypeInto_17" InteractionMode="WindowMessages" Text="[CurrentRow(&quot;Message&quot;).ToString+&quot;[k(enter)]&quot;]" Version="V1" />
+                        </Sequence>
+                      </ActivityAction>
+                    </uix:NApplicationCard.Body>
+                    <uix:NApplicationCard.TargetApp>
+                      <uix:TargetApp Area="-8, -8, 1382, 744" BrowserType="Chrome" IconBase64="iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAALhSURBVDhPbVJJTFNRFH0UAUU0GIxi3LhiUnFARKoiKIKJUYPEaUXUBDdE3Sm6IcE4BF0ggiQYmzpEEXcaRIG2FCQFFIuEGOYAEpGp0JaWtv/9432Pmoh6k5v38u8595177md/B4AgyizO+QNVVWtEijt9y6YM9sP+HwTIILCVTnxCL544aqG3f0Cr0i0+gWoddGT64YsDCs4KUJXdhBjLKbD6XWB1O/yZpEY3n+CVNoOAgLDn/LSFgA/J1F29OfoM7MNmsPebsNS0Dysb0rGi4QDCKDVGLdW2qzeG9UKJ6vP5tJJcUFCgURSlxTTfQYB4xFpOo3i4EhuasxBiSpENfucyUypYbQKMbisER3CZz+XTClXa9lz58uufRqmycOAxjZG4qIFIMZq2/YLECC6DB9d+YEZKZvVJME23y2LJSBWYIemfBqGmNKlEcGj0fMbneVkreghMptXvRO6327JB9td8krtF+hBk3ItA427ZIKxhv1QhOMQtZXyOl3zBAAIMydQ5DYEGLaonmjHjdSChNYd82Yg4yxlso7uGaqJBAJ1WDIK7eDHzTrryHDRHhPkQjZGKYHptlfkgPtpo5Spwb/ApuuwD8HAv8nvLoCFfIhozITjz44481tLYEsU93H2+55b0QEheYtyD5aTmDpHnfPNyJBHX+8rBaqKQ01MI7uWKtcUaJVep2tU3bUqPHCO0IU02WTA1EeuajuA4+ZHefpF+qASsNmdgCk64Jp3PJZlCo9iVtrvjL2mNsQgxpkgzhQrhtjhZ7VaqxSCy6TA+K700uzKif6VfL9nV1dVxHreHP5p6ixcOA7oxivyhckTT7xxOXoTTi+J+ZagMdpqbzyl95jpzvCSL6O/vvyrmU1zeKXVWfcenPXru5hM+cNq1DWO0b4XutLKJubHZ+0VFD9f4qQthsViyOzs7T+pKdZH+T0yn00UOdvUec363XXaO2C4Ndw0craioWOsv/xGM/QJRTmo7PXKHTQAAAABJRU5ErkJggg==" InformativeScreenshot="e78ae18e9080fbb8d769f436dfd3f287.png" Selector="&lt;html app='chrome.exe' title='(2) WhatsApp'/&gt;" Url="https://web.whatsapp.com/" />
+                    </uix:NApplicationCard.TargetApp>
+                  </uix:NApplicationCard>
+                </Sequence>
+              </If.Then>
+              <If.Else>
+                <Sequence sap2010:WorkflowViewState.IdRef="Sequence_23">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                </Sequence>
+              </If.Else>
+            </If>
+          </Sequence>
+        </ActivityAction>
+      </ui:ForEachRow.Body>
+    </ui:ForEachRow>
+  </Sequence>
+</Activity>

@@ -1,0 +1,14 @@
+﻿{
+  "Id": "kuPPQaAh3UqjU0B2qF3dPA",
+  "Reference": "tC2d9D4zAUemx5hZE_5XwQ/kuPPQaAh3UqjU0B2qF3dPA",
+  "ParentRef": "tC2d9D4zAUemx5hZE_5XwQ/ZAXKUpeOYU2OY8X50lcShw",
+  "Name": "154.20828 Indian Rupees",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Created": "2022-03-08T15:41:45.3540969Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=21.10.5.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2022-03-08T15:41:45.3540969Z"
+}

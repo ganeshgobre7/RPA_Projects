@@ -1,0 +1,14 @@
+﻿{
+  "Id": "5TuXkDlSvkWGvtT-2o-wog",
+  "Reference": "tC2d9D4zAUemx5hZE_5XwQ/5TuXkDlSvkWGvtT-2o-wog",
+  "ParentRef": "tC2d9D4zAUemx5hZE_5XwQ/ZAXKUpeOYU2OY8X50lcShw",
+  "Name": "INR – Indian Rupee",
+  "Type": "Element",
+  "TaxonomyType": "None",
+  "Created": "2022-03-08T15:41:25.4700586Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=21.10.5.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2022-03-08T15:41:25.4700586Z"
+}

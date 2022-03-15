@@ -1,0 +1,204 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" mva:VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="628,1312" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <scg:List x:TypeArguments="x:String" Capacity="30">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>System.Activities.DynamicUpdate</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>System.Runtime.InteropServices</x:String>
+    </scg:List>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <scg:List x:TypeArguments="AssemblyReference" Capacity="23">
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Mail.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+    </scg:List>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence sap:VirtualizedContainerService.HintSize="552,1247" sap2010:WorkflowViewState.IdRef="Sequence_2">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Browser Chrome: Fake Name Generator | FauxID.com" sap:VirtualizedContainerService.HintSize="510,1155" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="5bdd7f58-8479-4211-8450-40c8f0714108" Version="V1">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="476,939" sap2010:WorkflowViewState.IdRef="Sequence_1">
+            <Sequence.Variables>
+              <Variable x:TypeArguments="scg:IEnumerable(ui:UiElement)" Name="dropdownElements" />
+            </Sequence.Variables>
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <ui:FindChildren Children="[dropdownElements]" DisplayName="Find Children 'SELECT  country'" Filter="&lt;webctrl /&gt;" sap:VirtualizedContainerService.HintSize="434,106" sap2010:WorkflowViewState.IdRef="FindChildren_2" Scope="FIND_CHILDREN">
+              <ui:FindChildren.Target>
+                <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="9ce291d4-72ef-43f0-8753-58bd021247fe" InformativeScreenshot="d7730cc9a5300ec342553b04be9588fa" Selector="&lt;webctrl id='country' tag='SELECT' /&gt;">
+                  <ui:Target.TimeoutMS>
+                    <InArgument x:TypeArguments="x:Int32" />
+                  </ui:Target.TimeoutMS>
+                  <ui:Target.WaitForReady>
+                    <InArgument x:TypeArguments="ui:WaitForReady" />
+                  </ui:Target.WaitForReady>
+                </ui:Target>
+              </ui:FindChildren.Target>
+            </ui:FindChildren>
+            <ui:ForEach x:TypeArguments="ui:UiElement" CurrentIndex="{x:Null}" DisplayName="For Each" sap:VirtualizedContainerService.HintSize="434,701" sap2010:WorkflowViewState.IdRef="ForEach`1_2" Values="[dropdownElements]">
+              <ui:ForEach.Body>
+                <ActivityAction x:TypeArguments="ui:UiElement">
+                  <ActivityAction.Argument>
+                    <DelegateInArgument x:TypeArguments="ui:UiElement" Name="item" />
+                  </ActivityAction.Argument>
+                  <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="376,576" sap2010:WorkflowViewState.IdRef="Sequence_4">
+                    <Sequence.Variables>
+                      <Variable x:TypeArguments="x:String" Name="result" />
+                      <Variable x:TypeArguments="x:String" Name="resultCountry" />
+                    </Sequence.Variables>
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                    <uix:NGetAttribute Attribute="outertext" DisplayName="Get Attribute 'Country'" sap:VirtualizedContainerService.HintSize="334,186" sap2010:WorkflowViewState.IdRef="NGetAttribute_2" InUiElement="[item]" ScopeIdentifier="5bdd7f58-8479-4211-8450-40c8f0714108" Version="V1">
+                      <uix:NGetAttribute.Result>
+                        <OutArgument x:TypeArguments="x:String">[resultCountry]</OutArgument>
+                      </uix:NGetAttribute.Result>
+                      <uix:NGetAttribute.Target>
+                        <uix:TargetAnchorable BrowserURL="https://fauxid.com/fake-name-generator/india" DesignTimeRectangle="698, 478, 181, 35" ElementType="DropDown" FriendlyName="'India'" FullSelectorArgument="&lt;webctrl id='country' tag='SELECT' /&gt;" FuzzySelectorArgument="&lt;webctrl id='country' tag='SELECT' type='' aaname='Country' /&gt;" Guid="acb1b898-844e-4ab3-8c9f-2695fc218b28" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAALkAAAAnCAYAAABTwelvAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAALdSURBVHhe7Z1NSxtRFIb9e1nFhSFSpNAU6qLQ1lloN9kUF7FQKJaAULQtSKtY6UJLCRQCJUV0YUMJARFKC6GSjR8worHC2/tmokyMIU3BkDl5Hzgw5547+YDnTs5kcWfo9PgQuz9+YuNbWaEwFfSafg9JcIXloN9D4YGPX0t4+n4b3qstPJxXKKIV9Jb+0uOw15eSs8BJue1fOKn9gRBRg97SX3ocFv1Scq4AThAi6tBj+twiOe3XFVxYgB7T5xbJ2dMIYQX6LMmFaSS5MI8kF+aR5MI8klyYR5IL8/Sx5CVkh9NYqwaZXymhWPGDRIguuEHJKWkS2WIj7ZpmycsLY4hnCpDmolsiI7kQ/0vPJN9bTyP2ooDi2zRGEknERj3M5MMG+yiHa+tLmA5JXpxz43OlIHH4uznMPEgh7t4jfvvqawmrLL5bge+3/p5zbHFppZE101vJh8cx86WK2vkZ9jfmMDKcQf4oqO/nM4jfnUX+9xlwdoDyctoJ3EbyowKmE+PIbh0EeWUNXsLDaiVIhU0oeMw5dX9iqkl0HnOMNc65Sm8lf7aJWpA6WB9D9juPq1ibTOLx54a05Hwbz9tJ7haJf+QWwyXB+d6n0PnCHHWZH002iR4WnLWw/Bf0VvJQu9Fc53EKL3fqhQYc+7d2hV+Q4a2rZbHOVdE7CU6iKXk1B8+1PmxXauf1geBKLskHgrDonQQnfSJ5l+1KcR6xyRz2gsxRxeqEJB8kLkTvJDjpE8lbbzyLr6fa33juLuGWq73ZcVfyE3eT+uFJvW2R5IMF5e4kOOkbyd1H7uovxL38LO6NurFECt5CAauZJO4s6+8V0coNSi5EfyDJhXkkuTCPJBfmkeTCPJJcmEeSC/NIcmEeSS7Mc63k2gtRWKHtXoja1VZYoe2uttqfXEQdekt/6fG1+5NfiM4VwEnsaRSKKAW9pb9hwRl6ZpDCdNSfGaSnvymsBr0+PT7EX/VrgsfJlelCAAAAAElFTkSuQmCC" InformativeScreenshot="5dfb72337e4398f80a3c5a4f27182f01.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Fake Name Generator | FauxID.com' /&gt;" SearchSteps="FuzzySelector, Image">
+                          <uix:TargetAnchorable.Anchors>
+                            <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                              <uix:Target DesignTimeRectangle="698, 454, 50, 19" ElementType="Text" FriendlyName="'Country'" FullSelectorArgument="&lt;webctrl aaname='Country' tag='LABEL' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Country' tag='LABEL' type='' check:text='Country' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAADYAAAAXCAYAAABAtbxOAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAJUSURBVFhH7ZXRa9pAHMf3f/tQqEERCZEamtJSJQRR2rKUBCopKYRRFkbpaocPfXAWbLdpa62gHb59d5fkEg0xy6iDZfXh+3D3+13u98l9f3fvZi9j/I9ag6VNa7C06Q2DPVzDkiVkuRwymzls8LtQP95G565ILZnuJcLsRseTKB5scgNzywXK78io12RIRTrmUb8YRK9Zgf462PRDxYHK1i+C+TsDZTKX2TYwJOPxFw1VvuDkZXIlVPVrjJ1cGwqdK2m4d8YdmCVasIwWi/EVHO2XsOGsFaFfDTyoQIrN1u1CqdFcCWea5MQEvePWdNVAlubLtl9nLFjnPe99fH7+CeMfPQzvepgSSIlalBOhHKuoi26+dEqtmgCMSJA1mAfE6nS8dYJu+xzqNo3xUIxzdL6xdURcAfniIdqhnxtVZywY+3uLYIH6TdGJVy3PliMLVbohKbCfBMyP3aApsFjYisGJ2Q/uvrOXW1ginavAHnlxjqydsPhrTqw/wL3uggXxuOKTxpaBuTFWx9Bw7aicEtfQb83ZkOpVPfZ1ZSf252Csjmze7e+wq2LB5m9FYa9GbsUKhBwdE//b352P+z2ma1AXeowVxKN8QPpIFt1LIgEYc0pxp4bmp1Y0mG9HopANqeLBqMg7ZtKba8k7tnArcvO3IoldHno/gjwX+w0ofh/Fg826Z9hznpUcysbnJWCBHcM2pPo92D+sqeW2StTlllKwHtrHMsoFclr5BtohG1KlFMyzLult9ZL0ekROqq0YpzVY2vR2wH5OnvE8esToKc16xC+dwrZxgVrW0gAAAABJRU5ErkJggg==" SearchSteps="FuzzySelector, Image" />
+                            </scg:List>
+                          </uix:TargetAnchorable.Anchors>
+                        </uix:TargetAnchorable>
+                      </uix:NGetAttribute.Target>
+                    </uix:NGetAttribute>
+                    <uix:NSelectItem DisplayName="Select Item 'Country'" sap:VirtualizedContainerService.HintSize="334,156" sap2010:WorkflowViewState.IdRef="NSelectItem_1" Item="[resultCountry]" ScopeIdentifier="5bdd7f58-8479-4211-8450-40c8f0714108" Version="V1">
+                      <uix:NSelectItem.Items>
+                        <scg:List x:TypeArguments="x:String" Capacity="50">
+                          <x:String>United States</x:String>
+                          <x:String>United Kingdom</x:String>
+                          <x:String>France</x:String>
+                          <x:String>Germany</x:String>
+                          <x:String>China</x:String>
+                          <x:String>India</x:String>
+                          <x:String>---</x:String>
+                          <x:String>Argentina</x:String>
+                          <x:String>Armenia</x:String>
+                          <x:String>Australia</x:String>
+                          <x:String>Austria</x:String>
+                          <x:String>Bangladesh</x:String>
+                          <x:String>Belgium (Dutch)</x:String>
+                          <x:String>Belgium (French)</x:String>
+                          <x:String>Brazil</x:String>
+                          <x:String>Bulgaria</x:String>
+                          <x:String>Canada (English)</x:String>
+                          <x:String>Canada (French)</x:String>
+                          <x:String>China</x:String>
+                          <x:String>Croatia</x:String>
+                          <x:String>Cyprus</x:String>
+                          <x:String>Czech Republic</x:String>
+                          <x:String>Denmark</x:String>
+                          <x:String>Finland</x:String>
+                          <x:String>France</x:String>
+                          <x:String>Georgia</x:String>
+                          <x:String>Germany</x:String>
+                          <x:String>Greece</x:String>
+                          <x:String>Hong Kong (English)</x:String>
+                          <x:String>Hungary</x:String>
+                          <x:String>Iceland</x:String>
+                          <x:String>India</x:String>
+                          <x:String>Indonesia</x:String>
+                          <x:String>Iran</x:String>
+                          <x:String>Israel</x:String>
+                          <x:String>Italy</x:String>
+                          <x:String>Japan</x:String>
+                          <x:String>Jordan</x:String>
+                          <x:String>Kazakhstan</x:String>
+                          <x:String>Latvia</x:String>
+                          <x:String>Lithuania</x:String>
+                          <x:String>Malaysia</x:String>
+                          <x:String>Moldova</x:String>
+                          <x:String>Mongolia</x:String>
+                          <x:String>Nepal</x:String>
+                          <x:String>Netherlands</x:String>
+                          <x:String>New Zealand</x:String>
+                          <x:String>Nigeria</x:String>
+                          <x:String>Norway</x:String>
+                          <x:String>Peru</x:String>
+                        </scg:List>
+                      </uix:NSelectItem.Items>
+                      <uix:NSelectItem.Target>
+                        <uix:TargetAnchorable BrowserURL="https://fauxid.com/fake-name-generator/india" DesignTimeRectangle="698, 478, 181, 35" ElementType="DropDown" FriendlyName="'India'" FullSelectorArgument="&lt;webctrl id='country' tag='SELECT' /&gt;" FuzzySelectorArgument="&lt;webctrl id='country' tag='SELECT' type='' aaname='Country' /&gt;" Guid="4b421628-5b8e-45fd-bcbb-145c9760eefa" InformativeScreenshot="5dfb72337e4398f80a3c5a4f27182f01.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Fake Name Generator | FauxID.com' /&gt;" SearchSteps="FuzzySelector">
+                          <uix:TargetAnchorable.Anchors>
+                            <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                              <uix:Target DesignTimeRectangle="698, 454, 50, 19" ElementType="Text" FriendlyName="'Country'" FullSelectorArgument="&lt;webctrl aaname='Country' tag='LABEL' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Country' tag='LABEL' type='' check:text='Country' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAADYAAAAXCAYAAABAtbxOAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAJUSURBVFhH7ZXRa9pAHMf3f/tQqEERCZEamtJSJQRR2rKUBCopKYRRFkbpaocPfXAWbLdpa62gHb59d5fkEg0xy6iDZfXh+3D3+13u98l9f3fvZi9j/I9ag6VNa7C06Q2DPVzDkiVkuRwymzls8LtQP95G565ILZnuJcLsRseTKB5scgNzywXK78io12RIRTrmUb8YRK9Zgf462PRDxYHK1i+C+TsDZTKX2TYwJOPxFw1VvuDkZXIlVPVrjJ1cGwqdK2m4d8YdmCVasIwWi/EVHO2XsOGsFaFfDTyoQIrN1u1CqdFcCWea5MQEvePWdNVAlubLtl9nLFjnPe99fH7+CeMfPQzvepgSSIlalBOhHKuoi26+dEqtmgCMSJA1mAfE6nS8dYJu+xzqNo3xUIxzdL6xdURcAfniIdqhnxtVZywY+3uLYIH6TdGJVy3PliMLVbohKbCfBMyP3aApsFjYisGJ2Q/uvrOXW1ginavAHnlxjqydsPhrTqw/wL3uggXxuOKTxpaBuTFWx9Bw7aicEtfQb83ZkOpVPfZ1ZSf252Csjmze7e+wq2LB5m9FYa9GbsUKhBwdE//b352P+z2ma1AXeowVxKN8QPpIFt1LIgEYc0pxp4bmp1Y0mG9HopANqeLBqMg7ZtKba8k7tnArcvO3IoldHno/gjwX+w0ofh/Fg826Z9hznpUcysbnJWCBHcM2pPo92D+sqeW2StTlllKwHtrHMsoFclr5BtohG1KlFMyzLult9ZL0ekROqq0YpzVY2vR2wH5OnvE8esToKc16xC+dwrZxgVrW0gAAAABJRU5ErkJggg==" SearchSteps="FuzzySelector, Image" />
+                            </scg:List>
+                          </uix:TargetAnchorable.Anchors>
+                        </uix:TargetAnchorable>
+                      </uix:NSelectItem.Target>
+                    </uix:NSelectItem>
+                    <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="334,61" sap2010:WorkflowViewState.IdRef="WriteLine_1" Text="[&quot;Selected Country: &quot;+resultCountry]" />
+                  </Sequence>
+                </ActivityAction>
+              </ui:ForEach.Body>
+            </ui:ForEach>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="-8, -8, 1382, 744" BrowserType="Chrome" IconBase64="iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAC2SURBVDhP1dCxDgFBFIXhiX6XgoJeLVFpVCoFvRKdAolK6xkUi5eYJxGi4T3U+Cc5m+yabLKJaZzka+bee4oxQWPjeIC1TNDFMmOFBVo6yYfBCW85Y4NX5s15oq+TfBgELbhgjCPce2qPtk7y0UJacLNRVNeoXL4KruhhipnM0dG6H4bZgqI/2GrdD8OgBe4TR0hwEDcfat2PFtKCnz/xTwt2eOAOS0FNo3LhqIqmNCioaFQQYz4X36y94UFLAgAAAABJRU5ErkJggg==" InformativeScreenshot="11f268f6e30aa0642f6981c4811ef2e9.png" Selector="&lt;html app='chrome.exe' title='Fake Name Generator | FauxID.com'/&gt;" Url="https://fauxid.com/fake-name-generator/india" />
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+  </Sequence>
+</Activity>

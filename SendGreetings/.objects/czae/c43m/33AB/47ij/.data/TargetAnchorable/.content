@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-16"?>
+<TargetAnchorable BrowserURL="https://web.whatsapp.com/" ContentHash="SJswWJlAP0iyBf5QP0Eapg" DesignTimeRectangle="85, 274, 287, 20" FriendlyName="'DIV'" FullSelectorArgument="&lt;webctrl aria-role='textbox' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl aria-role='textbox' tag='DIV' type='' aaname='' /&gt;" Guid="c7b960a6-5811-4df2-a163-498435564708" ScopeSelectorArgument="&lt;html app='chrome.exe' title='(2) WhatsApp' /&gt;" SearchSteps="FuzzySelector, Image" xmlns="http://schemas.uipath.com/workflow/activities/uix">
+  <imageRef attrName="ImageBase64" xmlns="">0AKyTWAtTkkaPBy3dvfXHjw</imageRef>
+  <imageRef attrName="InformativeScreenshot" originalValue="6e9b6a40094d5e1eabe697ca8be54075.png" xmlns="">0NzZc3HlnYkqJFpgDB8rduA</imageRef>
+</TargetAnchorable>

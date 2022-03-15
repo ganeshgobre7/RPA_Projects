@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-16"?>
+<TargetAnchorable BrowserURL="https://web.whatsapp.com/" ContentHash="z2g7g7_BEUmfO-bPzm3g9A" DesignTimeRectangle="85, 394, 39, 22" ElementType="Text" FriendlyName="'gana'" FullSelectorArgument="&lt;webctrl aaname='gana' css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;span&amp;gt;span&amp;gt;span' idx='2' parentid='pane-side' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='gana' type='' check:text='gana' parentid='pane-side' tag='SPAN' /&gt;" Guid="454e65b0-aec9-4f05-808f-e89150c30958" ScopeSelectorArgument="&lt;html app='chrome.exe' title='(2) WhatsApp' /&gt;" SearchSteps="FuzzySelector, Image" xmlns="http://schemas.uipath.com/workflow/activities/uix">
+  <imageRef attrName="ImageBase64" xmlns="">0lJZytwFYTUe1eV8T9RUBog</imageRef>
+  <imageRef attrName="InformativeScreenshot" originalValue="69020b67a9eace07e7ae87a14ac3ba4f.png" xmlns="">0mOdSUrupeEO7uA4wngAtrQ</imageRef>
+</TargetAnchorable>

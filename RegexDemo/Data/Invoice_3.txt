@@ -1,0 +1,9 @@
+Hello,,,,,,,,
+
+
+The invoice numbetr generated for your purchase is  INV-3542
+Due Amount- $250
+Due Date -04-08-2022
+Please contac on the Email Id :Sam7@gmail.com for any query.
+
+Thank You!!!
